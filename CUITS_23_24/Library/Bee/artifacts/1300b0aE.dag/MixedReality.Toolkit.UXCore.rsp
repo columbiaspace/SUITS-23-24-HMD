@@ -126,6 +126,7 @@
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:MRTK_SPATIAL_PRESENT
 -define:MRTK_INPUT_PRESENT
+-define:MRTK_SPEECH_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/UnityInstalls/2022.3.16f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

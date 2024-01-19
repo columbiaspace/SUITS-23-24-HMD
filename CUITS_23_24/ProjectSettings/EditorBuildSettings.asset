@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/SampleScene.unity
+    guid: 1ef87b4ff2d5c854881ba50bb0422397
+  - enabled: 1
+    path: Assets/Scenes/TestTSS.unity
+    guid: 85b4a65a2ef51b244ab55518f71e0948
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5c5c56d51ab0ce04e8d1a65e331bd986, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a77a9f60323d3e745bcd5a01b9c30cf3, type: 2}

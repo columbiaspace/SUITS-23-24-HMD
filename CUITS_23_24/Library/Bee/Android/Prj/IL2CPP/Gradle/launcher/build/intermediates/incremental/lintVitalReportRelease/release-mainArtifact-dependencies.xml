@@ -1,0 +1,19 @@
+<dependencies>
+  <compile
+      roots="C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

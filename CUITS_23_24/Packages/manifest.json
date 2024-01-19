@@ -10,7 +10,7 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.1",
     "com.unity.xr.openxr": "1.9.1",
-    "org.mixedrealitytoolkit.core": "file:MixedReality/org.mixedrealitytoolkit.core-3.0.0.tgz",
+    "org.mixedrealitytoolkit.core": "file:MixedReality/org.mixedrealitytoolkit.core-3.0.1.tgz",
     "org.mixedrealitytoolkit.input": "file:MixedReality/org.mixedrealitytoolkit.input-3.0.0.tgz",
     "org.mixedrealitytoolkit.spatialmanipulation": "file:MixedReality/org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz",
     "org.mixedrealitytoolkit.standardassets": "file:MixedReality/org.mixedrealitytoolkit.standardassets-3.0.0.tgz",
@@ -46,6 +46,11 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "org.mixedrealitytoolkit.audio": "file:MixedReality/org.mixedrealitytoolkit.audio-3.0.0.tgz",
+    "org.mixedrealitytoolkit.extendedassets": "file:MixedReality/org.mixedrealitytoolkit.extendedassets-3.0.0.tgz",
+    "org.mixedrealitytoolkit.uxcomponents.noncanvas": "file:MixedReality/org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz",
+    "org.mixedrealitytoolkit.windowsspeech": "file:MixedReality/org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz",
+    "com.microsoft.mrtk.tts.windows": "file:MixedReality/com.microsoft.mrtk.tts.windows-1.0.1.tgz"
   }
 }

@@ -27,10 +27,10 @@
     },
     "org.mixedrealitytoolkit.core": {
       "tarball": {
-        "hash": "e0a4c2c13eef",
-        "mtime": 1701995870961,
-        "size": 130559,
-        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.core-3.0.0.tgz"
+        "hash": "c00d0949582c",
+        "mtime": 1705650032323,
+        "size": 130684,
+        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.core-3.0.1.tgz"
       }
     },
     "org.mixedrealitytoolkit.input": {
@@ -71,6 +71,46 @@
         "mtime": 1701995871804,
         "size": 100836,
         "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcore-3.1.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.audio": {
+      "tarball": {
+        "hash": "71480b7daae2",
+        "mtime": 1705650032304,
+        "size": 8047,
+        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.audio-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.extendedassets": {
+      "tarball": {
+        "hash": "54eb7886bc21",
+        "mtime": 1705650039326,
+        "size": 47308680,
+        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.uxcomponents.noncanvas": {
+      "tarball": {
+        "hash": "ef598e35f2b0",
+        "mtime": 1704434037635,
+        "size": 100111,
+        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz"
+      }
+    },
+    "org.mixedrealitytoolkit.windowsspeech": {
+      "tarball": {
+        "hash": "ecd1b873a282",
+        "mtime": 1705650032883,
+        "size": 14267,
+        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz"
+      }
+    },
+    "com.microsoft.mrtk.tts.windows": {
+      "tarball": {
+        "hash": "4476b6720999",
+        "mtime": 1705650032991,
+        "size": 50801,
+        "localPath": "C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Packages\\MixedReality\\com.microsoft.mrtk.tts.windows-1.0.1.tgz"
       }
     }
   }

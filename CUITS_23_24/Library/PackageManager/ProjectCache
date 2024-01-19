@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412357114892093
-    m_Hash: 779960698
+      ticks: 638412468533541824
+    m_Hash: 1916315317
   m_LockFileStatus:
     m_FilePath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412357115152110
-    m_Hash: 2174688542
+      ticks: 638412468678330829
+    m_Hash: 2279623205
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -61,20 +61,20 @@ m_LocalPackages:
       serializedVersion: 2
       ticks: 638375926861132826
     m_Hash: 2121345128
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.0.tgz/package.json
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.0.tgz
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926709605844
-    m_Hash: 680204768
+      ticks: 638412468323228950
+    m_Hash: 2312099008
   - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
@@ -145,6 +145,76 @@ m_LocalPackages:
       serializedVersion: 2
       ticks: 638375926718041353
     m_Hash: 1988646433
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638412468323038948
+    m_Hash: 1820591384
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638412468393255709
+    m_Hash: 1652167791
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638400308376353515
+    m_Hash: 3265224146
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638412468328829222
+    m_Hash: 2533991318
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638412468329909220
+    m_Hash: 1249959776
 m_ProjectPath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages
 m_EditorVersion: 2022.3.16f1 (d2c21f0ef2f1)
 m_ResolvedPackages:
@@ -1245,12 +1315,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.core@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.core@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz
   testable: 0
   isDirectDependency: 1
-  version: 3.0.0
+  version: 3.0.1
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.core@e0a4c2c13eef
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.core@c00d0949582c
   assetPath: Packages/org.mixedrealitytoolkit.core
   name: org.mixedrealitytoolkit.core
   displayName: MRTK Core Definitions
@@ -1387,7 +1457,7 @@ m_ResolvedPackages:
   - name: com.microsoft.mrtk.graphicstools.unity
     version: 0.5.12
   - name: org.mixedrealitytoolkit.core
-    version: 3.0.0
+    version: 3.0.1
   - name: com.unity.xr.interaction.toolkit
     version: 2.5.2
   - name: com.unity.inputsystem
@@ -1492,7 +1562,7 @@ m_ResolvedPackages:
     version: 2.3.0
   resolvedDependencies:
   - name: org.mixedrealitytoolkit.core
-    version: 3.0.0
+    version: 3.0.1
   - name: com.unity.xr.interaction.toolkit
     version: 2.5.2
   - name: com.unity.inputsystem
@@ -1657,7 +1727,7 @@ m_ResolvedPackages:
   - name: org.mixedrealitytoolkit.uxcore
     version: 3.1.0
   - name: org.mixedrealitytoolkit.core
-    version: 3.0.0
+    version: 3.0.1
   - name: com.unity.xr.interaction.toolkit
     version: 2.5.2
   - name: com.unity.inputsystem
@@ -1767,7 +1837,7 @@ m_ResolvedPackages:
   - name: com.microsoft.mrtk.graphicstools.unity
     version: 0.5.12
   - name: org.mixedrealitytoolkit.core
-    version: 3.0.0
+    version: 3.0.1
   - name: com.unity.xr.interaction.toolkit
     version: 2.5.2
   - name: com.unity.inputsystem
@@ -3665,6 +3735,420 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.audio@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.audio@71480b7daae2
+  assetPath: Packages/org.mixedrealitytoolkit.audio
+  name: org.mixedrealitytoolkit.audio
+  displayName: MRTK Audio Effects
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Effects and features that enhance the audio in mixed reality experiences.
+
+
+    In
+    order for the audio effects to be spatialized, an audio spatializer, such as
+    the Microsoft Spatializer, plugin must be imported into the project.
+
+
+    Please
+    note that audio spatializer plugins may be platform specific.'
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  resolvedDependencies:
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.1
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.extendedassets@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.extendedassets@54eb7886bc21
+  assetPath: Packages/org.mixedrealitytoolkit.extendedassets
+  name: org.mixedrealitytoolkit.extendedassets
+  displayName: MRTK Extended Assets
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This package offers additional assets helpful for example scenes or
+    rapid prototyping. These assets are in addition to the more commonly-used assets
+    located in StandardAssets.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: org.mixedrealitytoolkit.standardassets
+    version: 3.0.0
+  resolvedDependencies:
+  - name: org.mixedrealitytoolkit.standardassets
+    version: 3.0.0
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.uxcomponents.noncanvas@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.1.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcomponents.noncanvas@ef598e35f2b0
+  assetPath: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas
+  name: org.mixedrealitytoolkit.uxcomponents.noncanvas
+  displayName: MRTK UX Components (Non-Canvas)
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: MRTK non-Canvas UX component library, for building 3D UX without Canvas
+    layout. For most production-grade UI, we recommend the dynamic hybrid Canvas-based
+    UX systems, located in org.mixedrealitytoolkit.uxcomponents. However, in some
+    circumstances, static/non-Canvas UI may offer improved performance and batching,
+    and may be desirable in resource-constrained scenarios.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: org.mixedrealitytoolkit.uxcore
+    version: 3.1.0
+  - name: org.mixedrealitytoolkit.spatialmanipulation
+    version: 3.0.0
+  - name: org.mixedrealitytoolkit.standardassets
+    version: 3.0.0
+  resolvedDependencies:
+  - name: org.mixedrealitytoolkit.uxcore
+    version: 3.1.0
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.1
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: org.mixedrealitytoolkit.spatialmanipulation
+    version: 3.0.0
+  - name: org.mixedrealitytoolkit.standardassets
+    version: 3.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.windowsspeech@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.windowsspeech@ecd1b873a282
+  assetPath: Packages/org.mixedrealitytoolkit.windowsspeech
+  name: org.mixedrealitytoolkit.windowsspeech
+  displayName: MRTK Windows Speech
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Speech subsystem implementation for native Windows speech APIs. Allows
+    for the use of native Windows text to speech and speech recognition (keyword
+    recognition and dictation) to fire events and drive XRI interactions.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.microsoft.mrtk.tts.windows
+    version: 1.0.1
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  resolvedDependencies:
+  - name: com.microsoft.mrtk.tts.windows
+    version: 1.0.1
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.1
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.microsoft.mrtk.tts.windows@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mrtk.tts.windows@4476b6720999
+  assetPath: Packages/com.microsoft.mrtk.tts.windows
+  name: com.microsoft.mrtk.tts.windows
+  displayName: MRTK Windows Text-to-Speech Plugin
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Enables synthesizing text phrases into audio in standalone Windows
+    projects.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - mrtk
+  - microsoft
+  - text to speech
+  - tts
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedRealityToolkit.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

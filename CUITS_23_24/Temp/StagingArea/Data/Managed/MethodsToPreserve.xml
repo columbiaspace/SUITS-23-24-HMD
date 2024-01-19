@@ -1,0 +1,36 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="TSScUI">
+			<method name="Connect_Button"/>
+			<method name="Disconnect_Button"/>
+		</type>
+	</assembly>
+	<assembly fullname="MixedReality.Toolkit.Core" ignoreIfMissing="1">
+		<type fullname="MixedReality.Toolkit.StatefulInteractable">
+			<method name="ForceSetToggled"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

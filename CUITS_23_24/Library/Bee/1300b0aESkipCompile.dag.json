@@ -1,0 +1,372 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"D:/UnityInstalls/2022.3.16f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Microsoft.MixedReality.GraphicsTools.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Microsoft.MixedReality.OpenXR.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Microsoft.MixedReality.Toolkit.TextToSpeech.Windows.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.Audio.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.Core.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.Input.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.SpatialManipulation.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.Speech.Windows.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.UXComponents.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.UXComponents.NonCanvas.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\MixedReality.Toolkit.UXCore.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.ARFoundation.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.ARFoundation.InternalUtils.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.ARFoundation.VisualScripting.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.ARSubsystems.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.CoreUtils.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.Management.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.OpenXR.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.OpenXR.Features.ConformanceAutomation.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\Unity.XR.Simulation.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\UnityEngine.SpatialTracking.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\UnityInstalls\\2022.3.16f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\UnityInstalls\\2022.3.16f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\UnityInstalls\\2022.3.16f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\UnityInstalls\\2022.3.16f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\UnityInstalls\\2022.3.16f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"C:\\Users\\moise\\Documents\\GitHub\\SUITS-23-24\\CUITS_23_24\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Microsoft.MixedReality.GraphicsTools.dll",
+        "Library/ScriptAssemblies/Microsoft.MixedReality.OpenXR.dll",
+        "Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.TextToSpeech.Windows.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.Audio.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.Core.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.Input.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.SpatialManipulation.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.Speech.Windows.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.UXComponents.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.UXComponents.NonCanvas.dll",
+        "Library/ScriptAssemblies/MixedReality.Toolkit.UXCore.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARFoundation.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll",
+        "Library/ScriptAssemblies/Unity.XR.CoreUtils.dll",
+        "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
+        "Library/ScriptAssemblies/Unity.XR.Management.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+        "Library/ScriptAssemblies/Unity.XR.Simulation.dll",
+        "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Microsoft.MixedReality.GraphicsTools.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Microsoft.MixedReality.OpenXR.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.TextToSpeech.Windows.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.Audio.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.Input.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.SpatialManipulation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.Speech.Windows.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.UXComponents.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.UXComponents.NonCanvas.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MixedReality.Toolkit.UXCore.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARFoundation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.CoreUtils.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Management.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Simulation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "D:/UnityInstalls/2022.3.16f1/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1300b0aESkipCompile.dag.json",
+  "PayloadsFile": "C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Library/Bee/1300b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

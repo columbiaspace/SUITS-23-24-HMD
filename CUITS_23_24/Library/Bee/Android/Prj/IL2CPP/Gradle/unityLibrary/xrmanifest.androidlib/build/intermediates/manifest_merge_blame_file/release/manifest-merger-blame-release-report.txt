@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.XR.Manifest" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="1"
+6-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+7        android:targetSdkVersion="22" />
+7-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml
+8
+9    <uses-feature
+9-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:3-111
+10        android:name="android.hardware.vr.headtracking"
+10-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:17-64
+11        android:required="true"
+11-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:65-88
+12        android:version="1" />
+12-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:9:89-108
+13
+14    <application>
+14-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:3:3-8:17
+15        <activity android:name="com.unity3d.player.UnityPlayerActivity" >
+15-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:5-6:16
+15-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:4:15-68
+16            <meta-data
+16-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:7-81
+17                android:name="com.oculus.vr.focusaware"
+17-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:18-57
+18                android:value="true" />
+18-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:5:58-78
+19        </activity>
+20
+21        <meta-data
+21-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:7:5-98
+22            android:name="com.oculus.supportedDevices"
+22-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:7:16-58
+23            android:value="quest|quest2|cambria" />
+23-->C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\AndroidManifest.xml:7:59-95
+24    </application>
+25
+26</manifest>
