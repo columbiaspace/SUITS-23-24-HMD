@@ -5,23 +5,379 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412390112091903
-    m_Hash: 1646665576
+      ticks: 638412357114892093
+    m_Hash: 779960698
   m_LockFileStatus:
     m_FilePath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412390608364625
-    m_Hash: 4059302960
+      ticks: 638412357115152110
+    m_Hash: 2174688542
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926791305460
+    m_Hash: 2602493854
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926813487756
+    m_Hash: 2271517947
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926861132826
+    m_Hash: 2121345128
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926709605844
+    m_Hash: 680204768
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926737099387
+    m_Hash: 2755694162
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926709293416
+    m_Hash: 1677972006
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926739130161
+    m_Hash: 860049094
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926708824768
+    m_Hash: 698380579
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638375926718041353
+    m_Hash: 1988646433
 m_ProjectPath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages
 m_EditorVersion: 2022.3.16f1 (d2c21f0ef2f1)
 m_ResolvedPackages:
+- packageId: com.microsoft.mixedreality.openxr@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 1.10.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mixedreality.openxr@6b31efb96f12
+  assetPath: Packages/com.microsoft.mixedreality.openxr
+  name: com.microsoft.mixedreality.openxr
+  displayName: Mixed Reality OpenXR Plugin
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Extension to Unity OpenXR Plugin to support a suite of features for
+    HoloLens 2 and Windows Mixed Reality headsets.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.arfoundation
+    version: 4.1.7
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.xr.openxr
+    version: 1.7.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  resolvedDependencies:
+  - name: com.unity.xr.arfoundation
+    version: 5.1.1
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.xr.openxr
+    version: 1.9.1
+  keywords:
+  - microsoft
+  - mixed
+  - reality
+  - openxr
+  - hololens
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://aka.ms/openxr-unity-api-reference
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.microsoft.mrtk.graphicstools.unity@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 0.5.12
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@770ae1f34e33
+  assetPath: Packages/com.microsoft.mrtk.graphicstools.unity
+  name: com.microsoft.mrtk.graphicstools.unity
+  displayName: MRTK Graphics Tools
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Graphics tools and components for developing Mixed Reality applications
+    in Unity.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - microsoft
+  - mixed
+  - reality
+  - hololens
+  - ar
+  - vr
+  - xr
+  - graphics
+  - shaders
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/MixedReality-GraphicsTools-Unity
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.microsoft.spatialaudio.spatializer.unity@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.47
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@ef649958b4dc
+  assetPath: Packages/com.microsoft.spatialaudio.spatializer.unity
+  name: com.microsoft.spatialaudio.spatializer.unity
+  displayName: Microsoft Spatializer
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Cross-platform Audio Spatializer for Mixed Reality and Immersive 3D
+    applications
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - microsoft
+  - mixed
+  - reality
+  - spatial
+  - audio
+  - spatializer
+  - augmented
+  - virtual
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/microsoft/spatialaudio-unity
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
   isDirectDependency: 1
@@ -767,6 +1123,706 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.9.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.openxr@1.9.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.9.1
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.openxr@1.9.1
+  assetPath: Packages/com.unity.xr.openxr
+  name: com.unity.xr.openxr
+  displayName: OpenXR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: OpenXR is an open, royalty-free standard developed by Khronos that
+    aims to simplify AR/VR development by allowing developers to target a wide range
+    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.1-preview.1
+    - 0.1.2-preview.2
+    - 1.0.0-pre.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.1
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 1.2.8
+    - 1.3.0
+    - 1.3.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.5.0-exp.1
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.6.0
+    - 1.7.0
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.9.1
+    compatible:
+    - 1.9.1
+    recommended: 1.9.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.2
+  - name: com.unity.inputsystem
+    version: 1.6.3
+  - name: com.unity.xr.core-utils
+    version: 2.1.1
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  keywords:
+  - openxr
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638337609010000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.9/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+    revision: 630b0982955a4b4bbc0ee8440739c579544bbd80
+    path: 
+  unityLifecycle:
+    version: 1.9.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.core@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.core@e0a4c2c13eef
+  assetPath: Packages/org.mixedrealitytoolkit.core
+  name: org.mixedrealitytoolkit.core
+  displayName: MRTK Core Definitions
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A limited collection of common interfaces and utilities that most
+    MRTK packages share. Most implementations of these interfaces are contained in
+    other packages in the MRTK ecosystem.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.3.0
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  resolvedDependencies:
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.input@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.input@719fc273754c
+  assetPath: Packages/org.mixedrealitytoolkit.input
+  name: org.mixedrealitytoolkit.input
+  displayName: MRTK Input
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "This package contains custom interactors and controllers that build
+    on the foundation established by Unity's XR Interaction Toolkit. In addition,
+    it contains hand joint aggregation and simulation subsystems, which allows for
+    a single API for both real, device-driven hands and simulated hands. \n\nThe
+    vast majority of actual input processing is not done by this package; instead,
+    MRTK builds on the input data and interaction fundamentals already provided by
+    the Unity Input System and XR Interaction Toolkit. \n\nWhen using MRTK Input
+    in a project, it is not strictly necessary to have your package take a dependency
+    on MRTK Input; the custom interactors in this package are fully compatible with
+    the vanilla XRI APIs, and will both parse and generate all the same events and
+    interactions that other XRI interactors will."
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: com.unity.inputsystem
+    version: 1.6.1
+  - name: com.unity.xr.arfoundation
+    version: 5.0.5
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.3.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  resolvedDependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.xr.arfoundation
+    version: 5.1.1
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.spatialmanipulation@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.spatialmanipulation@7e88bb47473f
+  assetPath: Packages/org.mixedrealitytoolkit.spatialmanipulation
+  name: org.mixedrealitytoolkit.spatialmanipulation
+  displayName: MRTK Spatial Manipulation
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Spatial manipulation features, including ObjectManipulator, BoundsControl,
+    and the Solvers/Constraints systems.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: org.mixedrealitytoolkit.uxcore
+    version: 3.0.0
+  - name: com.unity.inputsystem
+    version: 1.6.1
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.3.0
+  resolvedDependencies:
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: org.mixedrealitytoolkit.uxcore
+    version: 3.1.0
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.standardassets@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.standardassets@1e823b29a693
+  assetPath: Packages/org.mixedrealitytoolkit.standardassets
+  name: org.mixedrealitytoolkit.standardassets
+  displayName: MRTK Standard Assets
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Common assets used by the MRTK packages, including common fonts, materials,
+    and models. Relies on the Graphics Tools collection of shaders.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  resolvedDependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.uxcomponents@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.1.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcomponents@58744f787171
+  assetPath: Packages/org.mixedrealitytoolkit.uxcomponents
+  name: org.mixedrealitytoolkit.uxcomponents
+  displayName: MRTK UX Components
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: MRTK UX component library, leveraging RectTransform/Canvas for dynamic
+    layout and presentation. Contains prefabs, visuals, pre-made controls, and everything
+    to get started building 3D user interfaces for mixed reality.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.uxcore
+    version: 3.1.0
+  - name: org.mixedrealitytoolkit.spatialmanipulation
+    version: 3.0.0
+  - name: org.mixedrealitytoolkit.standardassets
+    version: 3.0.0
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.3.0
+  resolvedDependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.uxcore
+    version: 3.1.0
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: org.mixedrealitytoolkit.spatialmanipulation
+    version: 3.0.0
+  - name: org.mixedrealitytoolkit.standardassets
+    version: 3.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: org.mixedrealitytoolkit.uxcore@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 3.1.0
+  source: 6
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcore@45c07beda63c
+  assetPath: Packages/org.mixedrealitytoolkit.uxcore
+  name: org.mixedrealitytoolkit.uxcore
+  displayName: MRTK UX Core Scripts
+  author:
+    name: Microsoft
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Core interaction and visualization scripts for building MR user interface
+    components.
+
+
+    Note: this is intended to be consumed in order to build UX
+    libraries. To build MR interfaces with a pre-existing library of components,
+    see org.mixedrealitytoolkit.uxcomponents.'
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: com.unity.inputsystem
+    version: 1.6.1
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.3.0
+  resolvedDependencies:
+  - name: com.microsoft.mrtk.graphicstools.unity
+    version: 0.5.12
+  - name: org.mixedrealitytoolkit.core
+    version: 3.0.0
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.5.2
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/MixedRealityToolkit/MixedRealityToolkit-Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2674,6 +3730,849 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.inputsystem@1.7.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.7.0
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.inputsystem@1.7.0
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    compatible:
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    recommended: 1.7.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638277060810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: e29989176f3a8473ba30854e4bfae953083eba28
+    path: 
+  unityLifecycle:
+    version: 1.7.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.interaction.toolkit@2.5.2
+  testable: 0
+  isDirectDependency: 0
+  version: 2.5.2
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.interaction.toolkit@2.5.2
+  assetPath: Packages/com.unity.xr.interaction.toolkit
+  name: com.unity.xr.interaction.toolkit
+  displayName: XR Interaction Toolkit
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: assets
+  description: A high-level, component-based, interaction system for creating VR
+    and AR experiences. It provides a framework that makes 3D and UI interactions
+    available from Unity input events. The core of this system is a set of base Interactor
+    and Interactable components, and an Interaction Manager that ties these two types
+    of components together. It also contains components that you can use for locomotion
+    and drawing visuals.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.6-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.10.0-preview.7
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0-pre.8
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0-pre.7
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0-pre.1
+    - 2.1.1
+    - 2.2.0
+    - 2.3.0-pre.1
+    - 2.3.0
+    - 2.3.1
+    - 2.3.2
+    - 2.4.0-pre.1
+    - 2.4.0-pre.2
+    - 2.4.0
+    - 2.4.1
+    - 2.4.3
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
+    - 3.0.0-pre.1
+    compatible:
+    - 2.5.2
+    - 3.0.0-pre.1
+    recommended: 2.5.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  keywords:
+  - XR
+  - VR
+  - toolkit
+  - interaction
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638321761050000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
+    revision: b246090d3472f6ddef44f0d6251360fc3d19a2b5
+    path: 
+  unityLifecycle:
+    version: 2.5.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.arfoundation@5.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 5.1.1
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.arfoundation@5.1.1
+  assetPath: Packages/com.unity.xr.arfoundation
+  name: com.unity.xr.arfoundation
+  displayName: AR Foundation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
+    for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
+    \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
+    that control AR session lifecycle and create GameObjects from detected, real-world
+    trackable features \n\u25AA Scale handling \n\u25AA Face tracking\n\nSamples
+    available at https://github.com/Unity-Technologies/arfoundation-samples"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 2.0.2
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.8
+    - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.6
+    - 3.0.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.3
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    compatible:
+    - 5.1.1
+    recommended: 5.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - foundation
+  - core
+  - subsystem
+  - xreditorsubsystem
+  - arsimulation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638364168960000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: af6913d442d5d0033eeab0c524c8261828c03403
+    path: 
+  unityLifecycle:
+    version: 5.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.core-utils@2.2.3
+  testable: 0
+  isDirectDependency: 0
+  version: 2.2.3
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.core-utils@2.2.3
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
+    compatible:
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
+    recommended: 2.2.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638269927990000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 334e8977dc25f14d394655c8e77354e4888c35d1
+    path: 
+  unityLifecycle:
+    version: 2.2.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.management@4.4.0
+  testable: 0
+  isDirectDependency: 0
+  version: 4.4.0
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.management@4.4.0
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Package that provides simple management of XR plug-ins. Manages and
+    offers help with loading, initialization, settings, and build support for XR
+    plug-ins.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    - 4.4.0
+    - 4.4.1
+    compatible:
+    - 4.4.0
+    - 4.4.1
+    recommended: 4.4.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.7
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638224209960000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: 6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8
+    path: 
+  unityLifecycle:
+    version: 4.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.10
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: asset
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    compatible:
+    - 2.1.10
+    recommended: 2.1.10
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637958908030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    path: 
+  unityLifecycle:
+    version: 2.1.10
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
@@ -3302,6 +5201,82 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.mathematics@1.2.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.6
+  source: 1
+  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
+    path: 
+  unityLifecycle:
+    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
