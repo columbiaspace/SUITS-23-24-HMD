@@ -1,229 +1,229 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages/manifest.json
+    m_FilePath: D:/SUITS 23-24/GitHub/SUITS-23-24/CUITS_23_24/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468533541824
+      ticks: 638420776160000000
     m_Hash: 1916315317
   m_LockFileStatus:
-    m_FilePath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages/packages-lock.json
+    m_FilePath: D:/SUITS 23-24/GitHub/SUITS-23-24/CUITS_23_24/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468678330829
-    m_Hash: 2279623205
+      ticks: 638420776160000000
+    m_Hash: 1782434128
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926791305460
+      ticks: 638420776080000000
     m_Hash: 2602493854
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926813487756
+      ticks: 638420776080000000
     m_Hash: 2271517947
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926861132826
+      ticks: 638420776120000000
     m_Hash: 2121345128
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468323228950
+      ticks: 638420776120000000
     m_Hash: 2312099008
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926737099387
+      ticks: 638420776160000000
     m_Hash: 2755694162
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926709293416
+      ticks: 638420776160000000
     m_Hash: 1677972006
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926739130161
+      ticks: 638420776160000000
     m_Hash: 860049094
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926708824768
+      ticks: 638420776160000000
     m_Hash: 698380579
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638375926718041353
+      ticks: 638420776160000000
     m_Hash: 1988646433
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468323038948
+      ticks: 638420776120000000
     m_Hash: 1820591384
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468393255709
+      ticks: 638420776160000000
     m_Hash: 1652167791
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638400308376353515
+      ticks: 638420776160000000
     m_Hash: 3265224146
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468328829222
+      ticks: 638420776160000000
     m_Hash: 2533991318
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz/package.json
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
       ticks: 0
     m_Hash: 0
-  - m_FilePath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz
+  - m_FilePath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412468329909220
+      ticks: 638420776080000000
     m_Hash: 1249959776
-m_ProjectPath: C:/Users/moise/Documents/GitHub/SUITS-23-24/CUITS_23_24/Packages
+m_ProjectPath: D:/SUITS 23-24/GitHub/SUITS-23-24/CUITS_23_24/Packages
 m_EditorVersion: 2022.3.16f1 (d2c21f0ef2f1)
 m_ResolvedPackages:
-- packageId: com.microsoft.mixedreality.openxr@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz
+- packageId: com.microsoft.mixedreality.openxr@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.10.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.10.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mixedreality.openxr@6b31efb96f12
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mixedreality.openxr@6b31efb96f12
   assetPath: Packages/com.microsoft.mixedreality.openxr
   name: com.microsoft.mixedreality.openxr
   displayName: Mixed Reality OpenXR Plugin
@@ -238,8 +238,10 @@ m_ResolvedPackages:
   status: 0
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 1.10.0
+    compatible:
+    - 1.10.0
     recommended: 
     deprecated: []
   dependencies:
@@ -325,12 +327,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.microsoft.mrtk.graphicstools.unity@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz
+- packageId: com.microsoft.mrtk.graphicstools.unity@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.graphicstools.unity-0.5.12.tgz
   testable: 0
   isDirectDependency: 1
   version: 0.5.12
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@770ae1f34e33
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mrtk.graphicstools.unity@770ae1f34e33
   assetPath: Packages/com.microsoft.mrtk.graphicstools.unity
   name: com.microsoft.mrtk.graphicstools.unity
   displayName: MRTK Graphics Tools
@@ -345,8 +347,10 @@ m_ResolvedPackages:
   status: 0
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 0.6.7
+    compatible:
+    - 0.6.7
     recommended: 
     deprecated: []
   dependencies: []
@@ -387,12 +391,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.microsoft.spatialaudio.spatializer.unity@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz
+- packageId: com.microsoft.spatialaudio.spatializer.unity@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.spatialaudio.spatializer.unity-2.0.47.tgz
   testable: 0
   isDirectDependency: 1
   version: 2.0.47
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@ef649958b4dc
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.spatialaudio.spatializer.unity@ef649958b4dc
   assetPath: Packages/com.microsoft.spatialaudio.spatializer.unity
   name: com.microsoft.spatialaudio.spatializer.unity
   displayName: Microsoft Spatializer
@@ -453,7 +457,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.2.0
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.collab-proxy@2.2.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.collab-proxy@2.2.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -592,7 +596,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -685,7 +689,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -870,7 +874,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.6
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1037,7 +1041,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1108,7 +1112,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.1
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.visualscripting@1.9.1
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.visualscripting@1.9.1
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1204,7 +1208,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.1
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.openxr@1.9.1
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.openxr@1.9.1
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -1315,12 +1319,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.core@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz
+- packageId: org.mixedrealitytoolkit.core@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.core-3.0.1.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.1
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.core@c00d0949582c
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.core@c00d0949582c
   assetPath: Packages/org.mixedrealitytoolkit.core
   name: org.mixedrealitytoolkit.core
   displayName: MRTK Core Definitions
@@ -1407,12 +1411,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.input@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.input@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.input-3.0.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.input@719fc273754c
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.input@719fc273754c
   assetPath: Packages/org.mixedrealitytoolkit.input
   name: org.mixedrealitytoolkit.input
   displayName: MRTK Input
@@ -1527,12 +1531,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.spatialmanipulation@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.spatialmanipulation@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.spatialmanipulation-3.0.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.spatialmanipulation@7e88bb47473f
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.spatialmanipulation@7e88bb47473f
   assetPath: Packages/org.mixedrealitytoolkit.spatialmanipulation
   name: org.mixedrealitytoolkit.spatialmanipulation
   displayName: MRTK Spatial Manipulation
@@ -1628,12 +1632,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.standardassets@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.standardassets@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.standardassets-3.0.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.standardassets@1e823b29a693
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.standardassets@1e823b29a693
   assetPath: Packages/org.mixedrealitytoolkit.standardassets
   name: org.mixedrealitytoolkit.standardassets
   displayName: MRTK Standard Assets
@@ -1685,12 +1689,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.uxcomponents@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz
+- packageId: org.mixedrealitytoolkit.uxcomponents@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents-3.1.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.1.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcomponents@58744f787171
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcomponents@58744f787171
   assetPath: Packages/org.mixedrealitytoolkit.uxcomponents
   name: org.mixedrealitytoolkit.uxcomponents
   displayName: MRTK UX Components
@@ -1793,12 +1797,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.uxcore@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz
+- packageId: org.mixedrealitytoolkit.uxcore@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcore-3.1.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.1.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcore@45c07beda63c
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcore@45c07beda63c
   assetPath: Packages/org.mixedrealitytoolkit.uxcore
   name: org.mixedrealitytoolkit.uxcore
   displayName: MRTK UX Core Scripts
@@ -1904,7 +1908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1959,7 +1963,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2013,7 +2017,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2068,7 +2072,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2123,7 +2127,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2178,7 +2182,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2237,7 +2241,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2300,7 +2304,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2356,7 +2360,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2411,7 +2415,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2466,7 +2470,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2521,7 +2525,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2576,7 +2580,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2631,7 +2635,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2690,7 +2694,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2745,7 +2749,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2808,7 +2812,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2866,7 +2870,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2921,7 +2925,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2988,7 +2992,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3043,7 +3047,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3106,7 +3110,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3161,7 +3165,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3224,7 +3228,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3287,7 +3291,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3350,7 +3354,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3429,7 +3433,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3488,7 +3492,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3555,7 +3559,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3624,7 +3628,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3679,7 +3683,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3741,12 +3745,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.audio@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.audio@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.audio-3.0.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.audio@71480b7daae2
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.audio@71480b7daae2
   assetPath: Packages/org.mixedrealitytoolkit.audio
   name: org.mixedrealitytoolkit.audio
   displayName: MRTK Audio Effects
@@ -3838,12 +3842,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.extendedassets@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.extendedassets@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.extendedassets-3.0.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.extendedassets@54eb7886bc21
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.extendedassets@54eb7886bc21
   assetPath: Packages/org.mixedrealitytoolkit.extendedassets
   name: org.mixedrealitytoolkit.extendedassets
   displayName: MRTK Extended Assets
@@ -3898,12 +3902,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.uxcomponents.noncanvas@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz
+- packageId: org.mixedrealitytoolkit.uxcomponents.noncanvas@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.1.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcomponents.noncanvas@ef598e35f2b0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.uxcomponents.noncanvas@ef598e35f2b0
   assetPath: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas
   name: org.mixedrealitytoolkit.uxcomponents.noncanvas
   displayName: MRTK UX Components (Non-Canvas)
@@ -4004,12 +4008,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: org.mixedrealitytoolkit.windowsspeech@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz
+- packageId: org.mixedrealitytoolkit.windowsspeech@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\org.mixedrealitytoolkit.windowsspeech-3.0.0.tgz
   testable: 0
   isDirectDependency: 1
   version: 3.0.0
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.windowsspeech@ecd1b873a282
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\org.mixedrealitytoolkit.windowsspeech@ecd1b873a282
   assetPath: Packages/org.mixedrealitytoolkit.windowsspeech
   name: org.mixedrealitytoolkit.windowsspeech
   displayName: MRTK Windows Speech
@@ -4098,12 +4102,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.microsoft.mrtk.tts.windows@file:C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz
+- packageId: com.microsoft.mrtk.tts.windows@file:D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Packages\MixedReality\com.microsoft.mrtk.tts.windows-1.0.1.tgz
   testable: 0
   isDirectDependency: 1
   version: 1.0.1
   source: 6
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mrtk.tts.windows@4476b6720999
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.microsoft.mrtk.tts.windows@4476b6720999
   assetPath: Packages/com.microsoft.mrtk.tts.windows
   name: com.microsoft.mrtk.tts.windows
   displayName: MRTK Windows Text-to-Speech Plugin
@@ -4118,8 +4122,10 @@ m_ResolvedPackages:
   status: 0
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 1.0.4
+    compatible:
+    - 1.0.4
     recommended: 
     deprecated: []
   dependencies: []
@@ -4160,7 +4166,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4219,7 +4225,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.7.0
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.inputsystem@1.7.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.inputsystem@1.7.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -4336,7 +4342,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.2
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.interaction.toolkit@2.5.2
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.interaction.toolkit@2.5.2
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -4481,7 +4487,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.1.1
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.arfoundation@5.1.1
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.arfoundation@5.1.1
   assetPath: Packages/com.unity.xr.arfoundation
   name: com.unity.xr.arfoundation
   displayName: AR Foundation
@@ -4588,6 +4594,7 @@ m_ResolvedPackages:
     - 4.2.7
     - 4.2.8
     - 4.2.9
+    - 4.2.10
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -4719,7 +4726,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.2.3
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.core-utils@2.2.3
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.core-utils@2.2.3
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4824,7 +4831,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.4.0
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.management@4.4.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.management@4.4.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -4960,7 +4967,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.10
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -5062,7 +5069,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -5151,7 +5158,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.27
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ide.rider@3.0.27
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ide.rider@3.0.27
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -5251,7 +5258,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -5319,7 +5326,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5384,7 +5391,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -5455,7 +5462,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -5590,7 +5597,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5696,7 +5703,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5772,7 +5779,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5834,7 +5841,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\moise\Documents\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: D:\SUITS 23-24\GitHub\SUITS-23-24\CUITS_23_24\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
