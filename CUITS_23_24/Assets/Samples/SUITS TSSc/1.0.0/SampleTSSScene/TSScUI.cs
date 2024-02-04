@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System.Text.Json;
+using System.Text.Json.Nodes;
 using TMPro;
+using Palmmedia.ReportGenerator.Core.Common;
 
 public class TSScUI : MonoBehaviour
 {
@@ -60,8 +62,9 @@ public class TSScUI : MonoBehaviour
             Debug.Log("ROVER Updated");
 
             // Get the Updated ROVER Json
-            string ROVERJsonString = TSSc.GetROVERJsonString();
-
+             string ROVERJsonString = TSSc.GetROVERJsonString();
+            // string ROVERJsonString = "Hello, this is a test";
+            
             // Displays the ROVER data to the screen (Your's should be more complicated)
             ROVERJsonDisplay.text = ROVERJsonString;
         }

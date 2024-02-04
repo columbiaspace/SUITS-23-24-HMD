@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Navigational(Main).unity
     guid: 85b4a65a2ef51b244ab55518f71e0948
+  - enabled: 1
+    path: Assets/Scenes/UIA Procedures.unity
+    guid: a67fb0d9f2202c046a45b1c72e9c7739
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5c5c56d51ab0ce04e8d1a65e331bd986, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a77a9f60323d3e745bcd5a01b9c30cf3, type: 2}
