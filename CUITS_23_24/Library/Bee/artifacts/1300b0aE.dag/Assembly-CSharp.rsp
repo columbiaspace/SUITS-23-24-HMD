@@ -409,7 +409,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"D:/SUITS 23-24/UnityInstalls/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/SUITS 23-24/UnityInstalls/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/HeartUI.cs"
 "Assets/ManagerScenes.cs"
 "Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScConnection.cs"
 "Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScUI.cs"
