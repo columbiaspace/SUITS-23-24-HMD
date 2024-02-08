@@ -412,6 +412,7 @@
 "Assets/ManagerScenes.cs"
 "Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScConnection.cs"
 "Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScUI.cs"
+"Assets/ShowKeyboard.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
