@@ -767,11 +767,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: CUITS-HMD
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 00231e21687bdb01
   metroApplicationDescription: CUITS-HMD
   wsaImages: {}
   metroTileShortName: CUITS-HMD
