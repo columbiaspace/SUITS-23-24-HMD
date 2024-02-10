@@ -1,6 +1,14 @@
 {
   "schemaVersion": 1,
   "packages": {
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "6b31efb96f12",
+        "mtime": 1707534688366,
+        "size": 10561549,
+        "localPath": "C:\\Users\\adenj\\Documents\\GitHub\\SUITS-23-24\\CUITS-HMD\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.10.0.tgz"
+      }
+    },
     "com.microsoft.mrtk.graphicstools.unity": {
       "tarball": {
         "hash": "2da042f5f1dc",
@@ -119,14 +127,6 @@
         "mtime": 1707588339195,
         "size": 14259,
         "localPath": "C:\\Users\\adenj\\Documents\\GitHub\\SUITS-23-24\\CUITS-HMD\\Packages\\MixedReality\\org.mixedrealitytoolkit.windowsspeech-3.0.1.tgz"
-      }
-    },
-    "com.microsoft.mixedreality.openxr": {
-      "tarball": {
-        "hash": "6b31efb96f12",
-        "mtime": 1707534688366,
-        "size": 10561549,
-        "localPath": "C:\\Users\\adenj\\Documents\\GitHub\\SUITS-23-24\\CUITS-HMD\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.10.0.tgz"
       }
     }
   }
