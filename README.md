@@ -1,30 +1,43 @@
-# 🦁 Welcome to Team CUITS' Repo for the NASA SUITS Challenge (2023-2024)! 🚀💻
+# 🦁 Welcome to Team CUITS Repo for the NASA SUITS Challenge (2023-2024)! 🚀💻
 
 ## Introduction
-Roarrr! Welcome to the den of Team CUITS, where we are tackling the NASA SUITS (Spacesuit User Interface Technologies for Students) Challenge for the stellar year 2023-2024! We're thrilled to have you join the cosmic mission.
+Greetings, Space Cadets! You've landed in the cosmic command center of Team CUITS of the Columbia Space Initiative, boldly venturing into the NASA SUITS (Spacesuit User Interface Technologies for Students) Challenge for the stellar year 2023-2024! Prepare for an intergalactic coding adventure.
 
 ## Contribution Guidelines
-To maintain the harmony of our digital spacewalk, here are the rules for contributing to the NASA SUITS repository:
+To navigate the stars with us, here are the rules for contributing to the NASA SUITS repository:
 
 ### 1. Branching Strategy
-- 🌲 Make sure you have your own branch for your contributions. Branch names should be descriptive and prefixed with your initials or a relevant identifier.
-  Example: `feature/TS-001-add-authentication`
+- 🌲 Ensure you've got your own branch for your cosmic contributions. Branch names should be the name of the explorer working on that branch.
+  Example: `moises`
 
-- 📬 If you don't have your own branch yet, reach out to our wise leaders, Moises or Jonah, to claim your territory in the codebase.
+- 📬 If you're feeling lost in the cosmic sea, signal our wise leaders - Moises or Jonah, to receive your territory in the codebase!
 
 ### 2. Unity Etiquette
-- 🚀 ALWAYS close Unity before committing and pushing to your branch. Let's keep our space station tidy and prevent intergalactic code collisions.
+- 🚀 ALWAYS close Unity before committing and pushing to your branch. Let's avoid space-time paradoxes and keep our coding universe in order.
+- Make sure to be on Unity Editor Version 2022.3.7!!!
 
 ### 3. Merging to Main
-- 🚀 Merges to the main branch will be orchestrated during our group meetings. Keep your work on your own branch until the group, with its collective cosmic wisdom, agrees to initiate a merge.
+- 🚀 Merges to the main branch will be celebrated during our out-of-this-world group meetings. Keep your creations on your own branch until the cosmic council approves a merge.
 
-## Getting Started
-Embark on your coding expedition by checking out the [CONTRIBUTING.md](CONTRIBUTING.md) file for more detailed instructions on how to contribute.
+## Current Members
+Meet our stellar crew navigating the NASA SUITS challenge:
 
-## Code of Conduct
-Let's explore the codebase with mutual respect and inclusivity. Check our [Code of Conduct](CODE_OF_CONDUCT.md) for guidelines.
+- Moises
+- Jonah
+- Adam
+- Sarah
+- Chloe
+- Shirley
+- Angela
+- Matt
+- Matthew
+- Joshua
+- Jordyn
+- Finneas
+- Phoebe
+- Rebecca
+- Donovan
+- Zakiy
+- Andromeda
 
-## License
-This project roars under the mighty [MIT License](LICENSE).
-
-May the code be with you, intrepid explorer! 🚀🌌
+May the code be with you, intrepid space explorer! 🚀🌌
