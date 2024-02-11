@@ -1,0 +1,379 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32670 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/adenj/Documents/GitHub/SUITS-23-24/CUITS-HMD
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61386
+Successfully changed project path to: C:/Users/adenj/Documents/GitHub/SUITS-23-24/CUITS-HMD
+C:/Users/adenj/Documents/GitHub/SUITS-23-24/CUITS-HMD
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3028] Host "[IP] 172.28.48.1 [Port] 0 [Flags] 2 [Guid] 231780426 [EditorId] 231780426 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-52M7JOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3028] Host "[IP] 172.28.48.1 [Port] 0 [Flags] 2 [Guid] 231780426 [EditorId] 231780426 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-52M7JOC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.80 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adenj/Documents/GitHub/SUITS-23-24/CUITS-HMD/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.21018.6011
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007605 seconds.
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 613ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenj\Documents\GitHub\SUITS-23-24\CUITS-HMD\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adenj\Documents\GitHub\SUITS-23-24\CUITS-HMD\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 13.43 ms, found 17 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+[XR] [MROpenXR][Info   ][22:18:23.617172][tid:bd4] OnPluginStarted UnityVersion=2022.3.7f1 OpenXRPluginVersion=1.8.2 MROpenXRPluginVersion=1.10.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][22:18:23.617172][tid:bd4] OnPluginStarted UnityVersion=2022.3.7f1 OpenXRPluginVersion=1.8.2 MROpenXRPluginVersion=1.10.0.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 1394ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 13.97 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5474 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (1.2 MB). Loaded Objects now: 5968.
+Memory consumption went from 194.0 MB to 192.7 MB.
+Total: 4.753200 ms (FindLiveObjects: 0.550200 ms CreateObjectMapping: 0.195000 ms MarkObjects: 3.323300 ms  DeleteObjects: 0.683500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28530.205402 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(3249fcfb198fe5d4db95115d1d733e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(3249fcfb198fe5d4db95115d1d733e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd00693d84e5cad7740f176d1eee14d') in 0.002755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 156.474669 seconds.
+  path: Packages/org.mixedrealitytoolkit.accessibility/Utilities/ObjectRoles/UI/Button.asset
+  artifactKey: Guid(40fe45f86fc9d9e4184d2b17e21a5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.accessibility/Utilities/ObjectRoles/UI/Button.asset using Guid(40fe45f86fc9d9e4184d2b17e21a5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f91e967768cf35f985827b05788401') in 0.010221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button@2x.png
+  artifactKey: Guid(1c37f00575bd6494ea726be5afee89b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button@2x.png using Guid(1c37f00575bd6494ea726be5afee89b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bcb040fe77d4f340e4fe37477b9a21') in 0.042633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Textures/ButtonBlob.png
+  artifactKey: Guid(0500244013d182d43a4337685f8c618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Textures/ButtonBlob.png using Guid(0500244013d182d43a4337685f8c618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcdf2deee989e44ea8297f617dcf62c') in 0.015296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button@4x.png
+  artifactKey: Guid(aa356632480554016ab8f4200032981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button@4x.png using Guid(aa356632480554016ab8f4200032981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c73c3f070f5807fa9c48bc9f7f2233f') in 0.013431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Button@2x.png
+  artifactKey: Guid(0962795d1cafc460b9027de55b1c0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Button@2x.png using Guid(0962795d1cafc460b9027de55b1c0a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6c2153d1a3fa40e81ea14bc5209056') in 0.019189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a450f86a47c98886e09b6379a964fe') in 0.015528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png
+  artifactKey: Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png using Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c8d4ac209643fdb5809b0bd856da2b') in 0.014987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128f12247183a6d8cf295857b4d76943') in 0.015050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button.png
+  artifactKey: Guid(2a5d0a7febdc741039abf135883517e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button.png using Guid(2a5d0a7febdc741039abf135883517e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2293eaa8af17f12efc12a88f0c62cd') in 0.016580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Button.png
+  artifactKey: Guid(0309256f03c114697813e2296f0a1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Button.png using Guid(0309256f03c114697813e2296f0a1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d275776a354f99c2ad1cec841980370') in 0.015302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6131919eb04803f73adbe2e9f8315a') in 0.013653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Button@4x.png
+  artifactKey: Guid(db3dc7a02ac6d4e90bbe905a44ac265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Button@4x.png using Guid(db3dc7a02ac6d4e90bbe905a44ac265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ecdf5a154de4fbc06bac28f88a3ea') in 0.017153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/ButtonGroup/ButtonGroup_32x32mm_H3.prefab
+  artifactKey: Guid(180d4d2203473be4fa3fef18d0bec80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/ButtonGroup/ButtonGroup_32x32mm_H3.prefab using Guid(180d4d2203473be4fa3fef18d0bec80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a2d41238cf0b8cde33f0afaba7f4fb') in 0.468808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1243
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
+  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e796b90160094b15a90ddcc1be5a1df') in 0.014497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.830485 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBackplateQuad.mat
+  artifactKey: Guid(c50667b49003b6e419e0819d46c5963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBackplateQuad.mat using Guid(c50667b49003b6e419e0819d46c5963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55165872794d36709681c44fae0318ad') in 0.086437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialog.prefab
+  artifactKey: Guid(cca6164bb2744884a92a100266f5f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Dialog/CanvasDialog.prefab using Guid(cca6164bb2744884a92a100266f5f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3ff73fbd9d7e0327757a822ec7b202') in 0.064722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 309
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/org.mixedrealitytoolkit.standardassets/Materials/Backplate/CanvasBackplateQuad.mat
+  artifactKey: Guid(6b655830bd028c1408f3e8844fb6aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.standardassets/Materials/Backplate/CanvasBackplateQuad.mat using Guid(6b655830bd028c1408f3e8844fb6aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54b3c2466ff2120907638f00335de0c') in 0.049161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBeveled.mat
+  artifactKey: Guid(3e399f4c8f94c07469d949416faa944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBeveled.mat using Guid(3e399f4c8f94c07469d949416faa944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11dde966bd0e20e73cce53017a6d249') in 0.100969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 216.360950 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44972280343a6fbcfbd52516e9cf36e9') in 0.200738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/SceneVariables.png
+  artifactKey: Guid(1322acb2dac5e7f4cbae25e022caf9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/SceneVariables.png using Guid(1322acb2dac5e7f4cbae25e022caf9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97dc1e69960c7dbddd38820a9964d71') in 0.017726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eea26c4d37e51515c53916b232c4ce0') in 0.015701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.Profiling;
+using UnityEngine.Serialization;
+using UnityEngine.XR.Interaction.Toolkit;
 
 using TMPro;
 
@@ -12,7 +15,6 @@ public class TSScUI : MonoBehaviour
 
     // UI Input
     public TMP_InputField InputFieldUrl;
-    public Button     ConnectButton;
 
     // UI Display
     public TMP_Text UIAJsonDisplay;
