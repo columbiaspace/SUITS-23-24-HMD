@@ -1,10 +1,10 @@
-# 🦁 Welcome to Team CUITS' SUITS Repo (2023-2024)! 🚀💻
+# 🦁 Welcome to Team CUITS' Repo for the NASA SUITS Challenge (2023-2024)! 🚀💻
 
 ## Introduction
-Roarrr! Welcome to the den of Team CUITS' SUITS (Software, Updates, Integrations, and Technical Solutions) for the stellar year 2023-2024! We're thrilled to have you join the pride.
+Roarrr! Welcome to the den of Team CUITS, where we are tackling the NASA SUITS (Spacesuit User Interface Technologies for Students) Challenge for the stellar year 2023-2024! We're thrilled to have you join the cosmic mission.
 
 ## Contribution Guidelines
-To maintain the harmony of our digital savannah, here are the rules for contributing to the SUITS repository:
+To maintain the harmony of our digital spacewalk, here are the rules for contributing to the NASA SUITS repository:
 
 ### 1. Branching Strategy
 - 🌲 Make sure you have your own branch for your contributions. Branch names should be descriptive and prefixed with your initials or a relevant identifier.
@@ -13,7 +13,7 @@ To maintain the harmony of our digital savannah, here are the rules for contribu
 - 📬 If you don't have your own branch yet, reach out to our wise leaders, Moises or Jonah, to claim your territory in the codebase.
 
 ### 2. Unity Etiquette
-- 🚀 ALWAYS close Unity before committing and pushing to your branch. Let's keep our launchpad tidy and prevent intergalactic code collisions.
+- 🚀 ALWAYS close Unity before committing and pushing to your branch. Let's keep our space station tidy and prevent intergalactic code collisions.
 
 ### 3. Merging to Main
 - 🚀 Merges to the main branch will be orchestrated during our group meetings. Keep your work on your own branch until the group, with its collective cosmic wisdom, agrees to initiate a merge.
