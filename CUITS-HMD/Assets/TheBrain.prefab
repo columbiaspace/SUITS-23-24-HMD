@@ -45,4 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 4247352706133319493, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
-  SS: {fileID: 0}
+  SS: {fileID: 4651555356541243176, guid: d4a0ee506e00c11478c385176d5b03ac, type: 3}
+  map: {fileID: 7008905401702626518, guid: 802b4919b2803f74b974d598328e9865, type: 3}
