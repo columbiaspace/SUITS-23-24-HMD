@@ -20,6 +20,8 @@ namespace MixedReality.Toolkit.UX
         {
             MRTKInputFieldManager.SetCurrentInputField(this);
             ActivateInputField();
+            Debug.Log("ActivateInputField");
+
         }
 
         /// <inheritdoc />

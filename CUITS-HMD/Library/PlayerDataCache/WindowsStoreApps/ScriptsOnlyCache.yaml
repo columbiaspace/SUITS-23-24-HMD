@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - PrefabGenerator
+    - SceneSwitcher
     - TSScConnection
     - TSScUI
     Microsoft.MixedReality.GraphicsTools.dll:
@@ -9,7 +11,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.GraphicsTools.CanvasMaterialAnimatorCanvasGlow
     - Microsoft.MixedReality.GraphicsTools.FrontPlatePulse
     - Microsoft.MixedReality.GraphicsTools.ProximityLight
-    - Microsoft.MixedReality.GraphicsTools.RectMask2DFast
     - Microsoft.MixedReality.GraphicsTools.ScaleMeshEffect
     Microsoft.MixedReality.OpenXR.Editor.dll:
     - Microsoft.MixedReality.OpenXR.Editor.PlayModeRemotingPluginInspector
@@ -28,6 +29,7 @@ ScriptsOnlyBuild:
     MixedReality.Toolkit.Core.dll:
     - MixedReality.Toolkit.CameraSettingsManager
     - MixedReality.Toolkit.ControllerLookup
+    - MixedReality.Toolkit.HandBounds
     - MixedReality.Toolkit.MRTKProfile
     - MixedReality.Toolkit.Subsystems.MRTKLifecycleManager
     MixedReality.Toolkit.Input.dll:
@@ -61,7 +63,7 @@ ScriptsOnlyBuild:
     - MixedReality.Toolkit.Input.SyntheticHandsConfig
     - MixedReality.Toolkit.Input.UnboundedTrackingMode
     MixedReality.Toolkit.SpatialManipulation.dll:
-    - MixedReality.Toolkit.SpatialManipulation.Follow
+    - MixedReality.Toolkit.SpatialManipulation.HandConstraintPalmUp
     - MixedReality.Toolkit.SpatialManipulation.SolverHandler
     MixedReality.Toolkit.Speech.Windows.dll:
     - MixedReality.Toolkit.Speech.Windows.WindowsDictationSubsystemConfig
@@ -72,7 +74,6 @@ ScriptsOnlyBuild:
     - MixedReality.Toolkit.UX.FontIconSelector
     - MixedReality.Toolkit.UX.FontIconSet
     - MixedReality.Toolkit.UX.InteractablePulse
-    - MixedReality.Toolkit.UX.KeyboardPreview
     - MixedReality.Toolkit.UX.MRTKTMPInputField
     - MixedReality.Toolkit.UX.PressableButton
     - MixedReality.Toolkit.UX.RectTransformColliderFitter
@@ -85,6 +86,7 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -96,7 +98,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
-    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -149,7 +150,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.OpenXR.Features.Interactions.PalmPoseInteraction
     - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
     - UnityEngine.XR.OpenXR.OpenXRLoader
-    - UnityEngine.XR.OpenXR.OpenXRRestarter
     - UnityEngine.XR.OpenXR.OpenXRSettings
     Unity.XR.Simulation.Editor.dll:
     - UnityEditor.XR.Simulation.SimulationEnvironmentAssetsManager
@@ -167,6 +167,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -186,10 +187,8 @@ ScriptsOnlyBuild:
     - MixedReality.Toolkit.CameraSettings
     - MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[MixedReality.Toolkit.SystemType,MixedReality.Toolkit.BaseSubsystemConfig]
     - MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[System.String,MixedReality.Toolkit.UX.StateVisualizer/State]
-    - MixedReality.Toolkit.SerializableDictionary`2/SerializableDictionaryEntry[System.String,System.UInt32]
     - MixedReality.Toolkit.SerializableDictionary`2[MixedReality.Toolkit.SystemType,MixedReality.Toolkit.BaseSubsystemConfig]
     - MixedReality.Toolkit.SerializableDictionary`2[System.String,MixedReality.Toolkit.UX.StateVisualizer/State]
-    - MixedReality.Toolkit.SerializableDictionary`2[System.String,System.UInt32]
     - MixedReality.Toolkit.SerializableDictionary`2[UnityEngine.GameObject,MixedReality.Toolkit.Input.InteractionModeManager/ManagedInteractorStatus]
     - MixedReality.Toolkit.StatefulTimerEvent
     - MixedReality.Toolkit.SystemInterfaceType
@@ -278,8 +277,8 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.AudioSource
     methodName: PlayOneShot
   - assembly: Assembly-CSharp
-    fullTypeName: TSScUI
-    methodName: Disconnect_Button
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: PlayOneShot
@@ -287,17 +286,113 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.AudioSource
     methodName: PlayOneShot
   - assembly: Assembly-CSharp
-    fullTypeName: TSScUI
-    methodName: Connect_Button
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: PlayOneShot
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: PlayOneShot
-  - assembly: MixedReality.Toolkit.UXCore
-    fullTypeName: MixedReality.Toolkit.UX.KeyboardPreview
-    methodName: ToggleSolvers
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: PlayOneShot
@@ -307,14 +402,383 @@ ScriptsOnlyBuild:
   - assembly: MixedReality.Toolkit.UXCore
     fullTypeName: MixedReality.Toolkit.UX.MRTKTMPInputField
     methodName: ActivateMRTKTMPInputField
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: TSScUI
+    methodName: Disconnect_Button
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
   - assembly: Assembly-CSharp
     fullTypeName: TSScUI
     methodName: Connect_Button
   - assembly: Assembly-CSharp
     fullTypeName: TSScUI
+    methodName: Connect_Button
+  - assembly: Assembly-CSharp
+    fullTypeName: TSScUI
+    methodName: Connect_Button
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: Assembly-CSharp
+    fullTypeName: TSScUI
     methodName: Disconnect_Button
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: PlayOneShot
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneSwitcher
+    methodName: SwitchScene
   sceneClasses:
-    Assets/Scenes/KeyboardTest.unity:
+    Assets/Scenes/MainScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -353,14 +817,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16762}
-    - Class: 114
-      Script: {instanceID: 16768}
-    - Class: 114
-      Script: {instanceID: 16802}
     - Class: 114
       Script: {instanceID: 16956}
     - Class: 114
@@ -372,9 +828,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17938}
     - Class: 114
-      Script: {instanceID: 18418}
-    - Class: 114
-      Script: {instanceID: 18728}
+      Script: {instanceID: 18444}
     - Class: 114
       Script: {instanceID: 18758}
     - Class: 114
@@ -385,8 +839,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 19082}
     - Class: 114
       Script: {instanceID: 19226}
-    - Class: 114
-      Script: {instanceID: 19240}
     - Class: 114
       Script: {instanceID: 19522}
     - Class: 114
@@ -426,87 +878,823 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21546}
     - Class: 114
+      Script: {instanceID: 21584}
+    - Class: 114
+      Script: {instanceID: 21906}
+    - Class: 114
+      Script: {instanceID: 21952}
+    - Class: 114
+      Script: {instanceID: 21982}
+    - Class: 114
+      Script: {instanceID: 22056}
+    - Class: 114
+      Script: {instanceID: 22306}
+    - Class: 114
+      Script: {instanceID: 22320}
+    - Class: 114
+      Script: {instanceID: 22530}
+    - Class: 114
+      Script: {instanceID: 22590}
+    - Class: 114
+      Script: {instanceID: 22654}
+    - Class: 114
+      Script: {instanceID: 22942}
+    - Class: 114
+      Script: {instanceID: 23224}
+    - Class: 114
+      Script: {instanceID: 23408}
+    - Class: 114
+      Script: {instanceID: 23578}
+    - Class: 114
+      Script: {instanceID: 23642}
+    - Class: 114
+      Script: {instanceID: 23824}
+    - Class: 114
+      Script: {instanceID: 23902}
+    - Class: 114
+      Script: {instanceID: 24464}
+    - Class: 114
+      Script: {instanceID: 24518}
+    - Class: 114
+      Script: {instanceID: 24876}
+    - Class: 114
+      Script: {instanceID: 24978}
+    - Class: 114
+      Script: {instanceID: 25036}
+    - Class: 114
+      Script: {instanceID: 25190}
+    - Class: 114
+      Script: {instanceID: 25220}
+    - Class: 114
+      Script: {instanceID: 25332}
+    - Class: 114
+      Script: {instanceID: 25414}
+    - Class: 114
+      Script: {instanceID: 25624}
+    - Class: 114
+      Script: {instanceID: 25748}
+    - Class: 114
+      Script: {instanceID: 26058}
+    - Class: 114
+      Script: {instanceID: 26194}
+    - Class: 114
+      Script: {instanceID: 26410}
+    - Class: 114
+      Script: {instanceID: 26604}
+    - Class: 114
+      Script: {instanceID: 26636}
+    - Class: 114
+      Script: {instanceID: 26716}
+    - Class: 114
+      Script: {instanceID: 26982}
+    - Class: 114
+      Script: {instanceID: 27108}
+    - Class: 114
+      Script: {instanceID: 27188}
+    - Class: 114
+      Script: {instanceID: 27452}
+    - Class: 114
+      Script: {instanceID: 58728}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 17110}
+    - Class: 114
+      Script: {instanceID: 17598}
+    - Class: 114
+      Script: {instanceID: 17938}
+    - Class: 114
+      Script: {instanceID: 18758}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 114
+      Script: {instanceID: 18906}
+    - Class: 114
+      Script: {instanceID: 19082}
+    - Class: 114
+      Script: {instanceID: 19226}
+    - Class: 114
+      Script: {instanceID: 19522}
+    - Class: 114
+      Script: {instanceID: 20014}
+    - Class: 114
+      Script: {instanceID: 20094}
+    - Class: 114
+      Script: {instanceID: 20100}
+    - Class: 114
+      Script: {instanceID: 20132}
+    - Class: 114
+      Script: {instanceID: 20272}
+    - Class: 114
+      Script: {instanceID: 20302}
+    - Class: 114
+      Script: {instanceID: 20404}
+    - Class: 114
+      Script: {instanceID: 20532}
+    - Class: 114
+      Script: {instanceID: 20936}
+    - Class: 114
+      Script: {instanceID: 21058}
+    - Class: 114
+      Script: {instanceID: 21134}
+    - Class: 114
+      Script: {instanceID: 21236}
+    - Class: 114
+      Script: {instanceID: 21276}
+    - Class: 114
+      Script: {instanceID: 21546}
+    - Class: 114
+      Script: {instanceID: 21584}
+    - Class: 114
+      Script: {instanceID: 21906}
+    - Class: 114
+      Script: {instanceID: 21952}
+    - Class: 114
+      Script: {instanceID: 21982}
+    - Class: 114
+      Script: {instanceID: 22056}
+    - Class: 114
+      Script: {instanceID: 22306}
+    - Class: 114
+      Script: {instanceID: 22320}
+    - Class: 114
+      Script: {instanceID: 22530}
+    - Class: 114
+      Script: {instanceID: 22590}
+    - Class: 114
+      Script: {instanceID: 22654}
+    - Class: 114
+      Script: {instanceID: 22942}
+    - Class: 114
+      Script: {instanceID: 23224}
+    - Class: 114
+      Script: {instanceID: 23408}
+    - Class: 114
+      Script: {instanceID: 23578}
+    - Class: 114
+      Script: {instanceID: 23642}
+    - Class: 114
+      Script: {instanceID: 23824}
+    - Class: 114
+      Script: {instanceID: 23902}
+    - Class: 114
+      Script: {instanceID: 24464}
+    - Class: 114
+      Script: {instanceID: 24518}
+    - Class: 114
+      Script: {instanceID: 24876}
+    - Class: 114
+      Script: {instanceID: 24978}
+    - Class: 114
+      Script: {instanceID: 25036}
+    - Class: 114
+      Script: {instanceID: 25190}
+    - Class: 114
+      Script: {instanceID: 25220}
+    - Class: 114
+      Script: {instanceID: 25332}
+    - Class: 114
+      Script: {instanceID: 25624}
+    - Class: 114
+      Script: {instanceID: 25748}
+    - Class: 114
+      Script: {instanceID: 26058}
+    - Class: 114
+      Script: {instanceID: 26410}
+    - Class: 114
+      Script: {instanceID: 26604}
+    - Class: 114
+      Script: {instanceID: 26636}
+    - Class: 114
+      Script: {instanceID: 26716}
+    - Class: 114
+      Script: {instanceID: 26982}
+    - Class: 114
+      Script: {instanceID: 27108}
+    - Class: 114
+      Script: {instanceID: 27188}
+    - Class: 114
+      Script: {instanceID: 27452}
+    - Class: 114
+      Script: {instanceID: 58728}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene 3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 17110}
+    - Class: 114
+      Script: {instanceID: 17598}
+    - Class: 114
+      Script: {instanceID: 17938}
+    - Class: 114
+      Script: {instanceID: 18758}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 114
+      Script: {instanceID: 18906}
+    - Class: 114
+      Script: {instanceID: 19082}
+    - Class: 114
+      Script: {instanceID: 19226}
+    - Class: 114
+      Script: {instanceID: 19522}
+    - Class: 114
+      Script: {instanceID: 20014}
+    - Class: 114
+      Script: {instanceID: 20094}
+    - Class: 114
+      Script: {instanceID: 20100}
+    - Class: 114
+      Script: {instanceID: 20132}
+    - Class: 114
+      Script: {instanceID: 20272}
+    - Class: 114
+      Script: {instanceID: 20302}
+    - Class: 114
+      Script: {instanceID: 20404}
+    - Class: 114
+      Script: {instanceID: 20532}
+    - Class: 114
+      Script: {instanceID: 20936}
+    - Class: 114
+      Script: {instanceID: 21058}
+    - Class: 114
+      Script: {instanceID: 21134}
+    - Class: 114
+      Script: {instanceID: 21236}
+    - Class: 114
+      Script: {instanceID: 21276}
+    - Class: 114
+      Script: {instanceID: 21546}
+    - Class: 114
+      Script: {instanceID: 21584}
+    - Class: 114
+      Script: {instanceID: 21906}
+    - Class: 114
+      Script: {instanceID: 21952}
+    - Class: 114
+      Script: {instanceID: 21982}
+    - Class: 114
+      Script: {instanceID: 22056}
+    - Class: 114
+      Script: {instanceID: 22306}
+    - Class: 114
+      Script: {instanceID: 22320}
+    - Class: 114
+      Script: {instanceID: 22530}
+    - Class: 114
+      Script: {instanceID: 22590}
+    - Class: 114
+      Script: {instanceID: 22654}
+    - Class: 114
+      Script: {instanceID: 22942}
+    - Class: 114
+      Script: {instanceID: 23224}
+    - Class: 114
+      Script: {instanceID: 23408}
+    - Class: 114
+      Script: {instanceID: 23578}
+    - Class: 114
+      Script: {instanceID: 23642}
+    - Class: 114
+      Script: {instanceID: 23824}
+    - Class: 114
+      Script: {instanceID: 23902}
+    - Class: 114
+      Script: {instanceID: 24464}
+    - Class: 114
+      Script: {instanceID: 24518}
+    - Class: 114
+      Script: {instanceID: 24876}
+    - Class: 114
+      Script: {instanceID: 24978}
+    - Class: 114
+      Script: {instanceID: 25036}
+    - Class: 114
+      Script: {instanceID: 25190}
+    - Class: 114
+      Script: {instanceID: 25220}
+    - Class: 114
+      Script: {instanceID: 25332}
+    - Class: 114
+      Script: {instanceID: 25624}
+    - Class: 114
+      Script: {instanceID: 25748}
+    - Class: 114
+      Script: {instanceID: 26058}
+    - Class: 114
+      Script: {instanceID: 26410}
+    - Class: 114
+      Script: {instanceID: 26604}
+    - Class: 114
+      Script: {instanceID: 26636}
+    - Class: 114
+      Script: {instanceID: 26716}
+    - Class: 114
+      Script: {instanceID: 26982}
+    - Class: 114
+      Script: {instanceID: 27108}
+    - Class: 114
+      Script: {instanceID: 27188}
+    - Class: 114
+      Script: {instanceID: 27452}
+    - Class: 114
+      Script: {instanceID: 58728}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene 4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 17110}
+    - Class: 114
+      Script: {instanceID: 17598}
+    - Class: 114
+      Script: {instanceID: 17938}
+    - Class: 114
+      Script: {instanceID: 18758}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 114
+      Script: {instanceID: 18906}
+    - Class: 114
+      Script: {instanceID: 19082}
+    - Class: 114
+      Script: {instanceID: 19226}
+    - Class: 114
+      Script: {instanceID: 19522}
+    - Class: 114
+      Script: {instanceID: 20014}
+    - Class: 114
+      Script: {instanceID: 20094}
+    - Class: 114
+      Script: {instanceID: 20100}
+    - Class: 114
+      Script: {instanceID: 20132}
+    - Class: 114
+      Script: {instanceID: 20272}
+    - Class: 114
+      Script: {instanceID: 20302}
+    - Class: 114
+      Script: {instanceID: 20404}
+    - Class: 114
+      Script: {instanceID: 20532}
+    - Class: 114
+      Script: {instanceID: 20936}
+    - Class: 114
+      Script: {instanceID: 21058}
+    - Class: 114
+      Script: {instanceID: 21134}
+    - Class: 114
+      Script: {instanceID: 21236}
+    - Class: 114
+      Script: {instanceID: 21276}
+    - Class: 114
+      Script: {instanceID: 21546}
+    - Class: 114
+      Script: {instanceID: 21584}
+    - Class: 114
+      Script: {instanceID: 21906}
+    - Class: 114
+      Script: {instanceID: 21952}
+    - Class: 114
+      Script: {instanceID: 21982}
+    - Class: 114
+      Script: {instanceID: 22056}
+    - Class: 114
+      Script: {instanceID: 22306}
+    - Class: 114
+      Script: {instanceID: 22320}
+    - Class: 114
+      Script: {instanceID: 22530}
+    - Class: 114
+      Script: {instanceID: 22590}
+    - Class: 114
+      Script: {instanceID: 22654}
+    - Class: 114
+      Script: {instanceID: 22942}
+    - Class: 114
+      Script: {instanceID: 23224}
+    - Class: 114
+      Script: {instanceID: 23408}
+    - Class: 114
+      Script: {instanceID: 23578}
+    - Class: 114
+      Script: {instanceID: 23642}
+    - Class: 114
+      Script: {instanceID: 23824}
+    - Class: 114
+      Script: {instanceID: 23902}
+    - Class: 114
+      Script: {instanceID: 24464}
+    - Class: 114
+      Script: {instanceID: 24518}
+    - Class: 114
+      Script: {instanceID: 24876}
+    - Class: 114
+      Script: {instanceID: 24978}
+    - Class: 114
+      Script: {instanceID: 25036}
+    - Class: 114
+      Script: {instanceID: 25190}
+    - Class: 114
+      Script: {instanceID: 25220}
+    - Class: 114
+      Script: {instanceID: 25332}
+    - Class: 114
+      Script: {instanceID: 25624}
+    - Class: 114
+      Script: {instanceID: 25748}
+    - Class: 114
+      Script: {instanceID: 26058}
+    - Class: 114
+      Script: {instanceID: 26410}
+    - Class: 114
+      Script: {instanceID: 26604}
+    - Class: 114
+      Script: {instanceID: 26636}
+    - Class: 114
+      Script: {instanceID: 26716}
+    - Class: 114
+      Script: {instanceID: 26982}
+    - Class: 114
+      Script: {instanceID: 27108}
+    - Class: 114
+      Script: {instanceID: 27188}
+    - Class: 114
+      Script: {instanceID: 27452}
+    - Class: 114
+      Script: {instanceID: 58728}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/TSSSetup.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16768}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 17110}
+    - Class: 114
+      Script: {instanceID: 17598}
+    - Class: 114
+      Script: {instanceID: 17938}
+    - Class: 114
+      Script: {instanceID: 18418}
+    - Class: 114
+      Script: {instanceID: 18758}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 114
+      Script: {instanceID: 18906}
+    - Class: 114
+      Script: {instanceID: 19082}
+    - Class: 114
+      Script: {instanceID: 19226}
+    - Class: 114
+      Script: {instanceID: 19240}
+    - Class: 114
+      Script: {instanceID: 19522}
+    - Class: 114
+      Script: {instanceID: 20014}
+    - Class: 114
+      Script: {instanceID: 20094}
+    - Class: 114
+      Script: {instanceID: 20100}
+    - Class: 114
+      Script: {instanceID: 20132}
+    - Class: 114
+      Script: {instanceID: 20272}
+    - Class: 114
+      Script: {instanceID: 20302}
+    - Class: 114
+      Script: {instanceID: 20404}
+    - Class: 114
+      Script: {instanceID: 20532}
+    - Class: 114
+      Script: {instanceID: 20936}
+    - Class: 114
+      Script: {instanceID: 20958}
+    - Class: 114
+      Script: {instanceID: 21058}
+    - Class: 114
+      Script: {instanceID: 21134}
+    - Class: 114
+      Script: {instanceID: 21236}
+    - Class: 114
+      Script: {instanceID: 21276}
+    - Class: 114
+      Script: {instanceID: 21546}
+    - Class: 114
       Script: {instanceID: 21582}
     - Class: 114
       Script: {instanceID: 21584}
     - Class: 114
       Script: {instanceID: 21906}
     - Class: 114
+      Script: {instanceID: 21952}
+    - Class: 114
       Script: {instanceID: 21982}
     - Class: 114
       Script: {instanceID: 22056}
     - Class: 114
-      Script: {instanceID: 22304}
+      Script: {instanceID: 22306}
     - Class: 114
-      Script: {instanceID: 22318}
+      Script: {instanceID: 22320}
     - Class: 114
-      Script: {instanceID: 22332}
+      Script: {instanceID: 22530}
     - Class: 114
-      Script: {instanceID: 22528}
+      Script: {instanceID: 22590}
     - Class: 114
-      Script: {instanceID: 22588}
+      Script: {instanceID: 22654}
     - Class: 114
-      Script: {instanceID: 22652}
+      Script: {instanceID: 22942}
     - Class: 114
-      Script: {instanceID: 22940}
+      Script: {instanceID: 23224}
     - Class: 114
-      Script: {instanceID: 23222}
+      Script: {instanceID: 23408}
     - Class: 114
-      Script: {instanceID: 23304}
+      Script: {instanceID: 23578}
     - Class: 114
-      Script: {instanceID: 23406}
+      Script: {instanceID: 23642}
     - Class: 114
-      Script: {instanceID: 23576}
+      Script: {instanceID: 23824}
     - Class: 114
-      Script: {instanceID: 23640}
+      Script: {instanceID: 23902}
     - Class: 114
-      Script: {instanceID: 23822}
+      Script: {instanceID: 24464}
     - Class: 114
-      Script: {instanceID: 23900}
+      Script: {instanceID: 24518}
     - Class: 114
-      Script: {instanceID: 24462}
+      Script: {instanceID: 24876}
     - Class: 114
-      Script: {instanceID: 24516}
+      Script: {instanceID: 24978}
     - Class: 114
-      Script: {instanceID: 24874}
+      Script: {instanceID: 25036}
     - Class: 114
-      Script: {instanceID: 24976}
+      Script: {instanceID: 25190}
     - Class: 114
-      Script: {instanceID: 25034}
+      Script: {instanceID: 25220}
     - Class: 114
-      Script: {instanceID: 25188}
+      Script: {instanceID: 25332}
     - Class: 114
-      Script: {instanceID: 25218}
+      Script: {instanceID: 25362}
     - Class: 114
-      Script: {instanceID: 25330}
+      Script: {instanceID: 25624}
     - Class: 114
-      Script: {instanceID: 25360}
+      Script: {instanceID: 25748}
     - Class: 114
-      Script: {instanceID: 25412}
+      Script: {instanceID: 26058}
     - Class: 114
-      Script: {instanceID: 25622}
+      Script: {instanceID: 26410}
     - Class: 114
-      Script: {instanceID: 26056}
+      Script: {instanceID: 26604}
     - Class: 114
-      Script: {instanceID: 26344}
+      Script: {instanceID: 26636}
     - Class: 114
-      Script: {instanceID: 26408}
+      Script: {instanceID: 26716}
     - Class: 114
-      Script: {instanceID: 26602}
+      Script: {instanceID: 26844}
     - Class: 114
-      Script: {instanceID: 26634}
+      Script: {instanceID: 26982}
     - Class: 114
-      Script: {instanceID: 26842}
+      Script: {instanceID: 27108}
     - Class: 114
-      Script: {instanceID: 26980}
+      Script: {instanceID: 27188}
     - Class: 114
-      Script: {instanceID: 27106}
+      Script: {instanceID: 27354}
     - Class: 114
-      Script: {instanceID: 27186}
+      Script: {instanceID: 27452}
     - Class: 114
-      Script: {instanceID: 27352}
-    - Class: 114
-      Script: {instanceID: 27450}
+      Script: {instanceID: 58728}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2044,7 +3232,7 @@ ScriptsOnlyBuild:
     className: ARAnchor
   - hash:
       serializedVersion: 2
-      Hash: 347155c1826d33b6fe08e8dff645ede9
+      Hash: 857bbf7a51b59294de3d234f0a7107a5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TSScUI
@@ -2156,6 +3344,12 @@ ScriptsOnlyBuild:
     assemblyName: MixedReality.Toolkit.SpatialManipulation
     namespaceName: MixedReality.Toolkit.SpatialManipulation
     className: HandConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneSwitcher
   - hash:
       serializedVersion: 2
       Hash: a4a4dd7ac4a1d7208aaa042d905e68bf
@@ -3824,7 +5018,17 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.OpenXR
     namespaceName: Microsoft.MixedReality.OpenXR
     className: ControllerModelArticulator
+  - hash:
+      serializedVersion: 2
+      Hash: 8dfd347fa02ff1e52378e94941c1b42f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PrefabGenerator
   platform: 21
   scenePathNames:
-  - Assets/Scenes/KeyboardTest.unity
+  - Assets/Scenes/MainScene.unity
+  - Assets/Scenes/TSSSetup.unity
+  - Assets/Scenes/Scene 4.unity
+  - Assets/Scenes/Scene 3.unity
+  - Assets/Scenes/Scene 2.unity
   playerPath: C:/Users/adenj/Desktop/Builds
