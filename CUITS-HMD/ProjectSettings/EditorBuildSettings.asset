@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 3.unity
     guid: 1350284ba2cdc7b4a9a013697b5d57e9
   - enabled: 1
-    path: Assets/Scenes/Scene 2.unity
+    path: Assets/Scenes/UIA.unity
     guid: 75f3930ca96c53644ba596f8f3313ad8
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3361eacd4c35c284c8c2e351f1feb00f, type: 2}

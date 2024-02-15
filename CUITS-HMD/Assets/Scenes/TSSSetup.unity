@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1106,6 +1106,7 @@ GameObject:
   - component: {fileID: 1036329402}
   - component: {fileID: 1036329401}
   - component: {fileID: 1036329400}
+  - component: {fileID: 1036329406}
   m_Layer: 5
   m_Name: Telemetry Stream Canvas
   m_TagString: Untagged
@@ -1120,7 +1121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036329399}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14c591784d3f11647a5f703a1103ecab, type: 3}
   m_Name: 
@@ -1238,6 +1239,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0.23, y: 1}
   m_SizeDelta: {x: 1000, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1036329406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036329399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e950c5d6b1b9c75468032462108efa0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TSSc: {fileID: 1036329401}
+  InputFieldUrl: {fileID: 1668764796}
+  UIAJsonDisplay: {fileID: 283676700}
+  DCUJsonDisplay: {fileID: 1303668994}
+  ROVERJsonDisplay: {fileID: 2107015319}
+  SPECJsonDisplay: {fileID: 286738635}
+  TELEMETRYJsonDisplay: {fileID: 97196382}
+  COMMJsonDisplay: {fileID: 334789842}
+  IMUJsonDisplay: {fileID: 1402466138}
 --- !u!114 &1118302275 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5569439093497552269, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
