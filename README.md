@@ -39,5 +39,6 @@ Meet our stellar crew navigating the NASA SUITS challenge:
 - Donovan
 - Zakiy
 - Andromeda
+- Michael
 
 May the code be with you, intrepid space explorer! 🚀🌌
