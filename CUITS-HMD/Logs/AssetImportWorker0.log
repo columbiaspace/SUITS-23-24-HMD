@@ -1,0 +1,390 @@
+Unity Editor version:    2022.3.7f1 (b16b3b16c7a0)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56438
+Successfully changed project path to: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD
+/Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704571231104] Host "[IP] 10.206.95.81 [Port] 0 [Flags] 2 [Guid] 3543072343 [EditorId] 3543072343 [Version] 1048832 [Id] OSXEditor(0,Moisess-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704571231104] Host "[IP] 10.206.95.81 [Port] 0 [Flags] 2 [Guid] 3543072343 [EditorId] 3543072343 [Version] 1048832 [Id] OSXEditor(0,Moisess-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 54.38 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56499
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.7f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003815 seconds.
+- Loaded All Assemblies, in  0.781 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 184 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling: 1624ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (445ms)
+			TypeCache.Refresh (440ms)
+				TypeCache.ScanAssembly (409ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (412ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.223 seconds
+Refreshing native plugins compatible for Editor in 9.38 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in ./Library/PackageCache/com.microsoft.mixedreality.openxr@6b31efb96f12/Runtime/Subsystems/PluginEnvironment.cs:35 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin.OnEnable () [0x00013] in ./Library/PackageCache/com.microsoft.mixedreality.openxr@6b31efb96f12/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:71 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x0001d] in ./Library/PackageCache/com.microsoft.mixedreality.openxr@6b31efb96f12/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:38 
+UnityEditor.EditorBuildSettings:GetConfigObject(String)
+UnityEditor.EditorBuildSettings:TryGetConfigObject(String, Object&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorBuildSettings.bindings.cs:110)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetPackageSettings() (at ./Library/PackageCache/com.unity.xr.openxr@1.8.2/Runtime/OpenXRSettings.cs:88)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetSettingsForBuildTargetGroup(BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@1.8.2/Runtime/OpenXRSettings.cs:79)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:GetFullValidationList(List`1, BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@1.8.2/Runtime/Features/OpenXRFeature.cs:409)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:GetAllValidationIssues(List`1, BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@1.8.2/Runtime/OpenXRProjectValidation.cs:272)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules() (at ./Library/PackageCache/com.unity.xr.openxr@1.8.2/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck() (at ./Library/PackageCache/com.unity.xr.openxr@1.8.2/Editor/OpenXRProjectValidationRulesSetup.cs:40)
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:145)
+
+(Filename: ./Library/PackageCache/com.microsoft.mixedreality.openxr@6b31efb96f12/Runtime/Subsystems/PluginEnvironment.cs Line: 35)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 3369ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (1571ms)
+		LoadAssemblies (1080ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (616ms)
+			TypeCache.Refresh (546ms)
+				TypeCache.ScanAssembly (479ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1155ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (820ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 8.40 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5484 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (1.4 MB). Loaded Objects now: 5988.
+Memory consumption went from 207.3 MB to 205.9 MB.
+Total: 6.930045 ms (FindLiveObjects: 0.554850 ms CreateObjectMapping: 0.579979 ms MarkObjects: 4.447535 ms  DeleteObjects: 1.346801 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16806.805411 seconds.
+  path: Assets/Scripts/TSS_Serialized.cs
+  artifactKey: Guid(e950c5d6b1b9c75468032462108efa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TSS_Serialized.cs using Guid(e950c5d6b1b9c75468032462108efa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bad13f8e296764c137b5f5633071c05') in 0.005914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.014964 seconds.
+  path: Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScConnection.cs
+  artifactKey: Guid(3d31442d6270f5d4a97f0b8a3a7c07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScConnection.cs using Guid(3d31442d6270f5d4a97f0b8a3a7c07a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453fd987b280e4e361ef99e43f49cd21') in 0.001753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.237065 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71276169d3ec0d16ca52d340ad0543a') in 0.433827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 13.680510 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107a9bd21b172d4e4e448cbd38388b62') in 0.081977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 10.035742 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f633e33108d406f4d4aa5d40ddeb74') in 0.133791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 5.726252 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9e80c65111db237ca18d7574f912c0') in 0.079115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 8.426239 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd14f2de14ccae3392423b994466945') in 0.084812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 2.640186 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca634d066d16a190cf1db397086f772') in 0.099776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 3.478251 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fba3dccc156f3a28d82f126539de033') in 0.077223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 4.426037 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117966a7fae49d42a09842df55ad5f78') in 0.066171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 1.627764 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a660d2731f3f7c717babc7efada41dc') in 0.068972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 4.613509 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6538013906b875f2d6bc83b743ffb8') in 0.075107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 0.787164 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e7795ac447db38e914bd4b1385de6f') in 0.074083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 8.347995 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bbf31e6dadeb3851642c0c9ba7b72b') in 0.079380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 2.700309 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d3bb6e90000e70ebcb3d96fcc0315d') in 0.085639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 5.340298 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d1944b51c757c61e9f5de7907af56d') in 0.074388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 2.906443 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63118ae24c0be400e299fe68f17ffacd') in 0.068063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168
+========================================================================
+Received Import Request.
+  Time since last request: 1.722070 seconds.
+  path: Assets/CUITS Menu.prefab
+  artifactKey: Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CUITS Menu.prefab using Guid(d34b42870cf9c2d47a3568c488779818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70072d8bb82ac25df6251d2583caa96') in 0.085529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1168

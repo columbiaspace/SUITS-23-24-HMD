@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 461147887
   m_LockFileStatus:
     m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 2074167799
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -31,7 +31,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 2602493854
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/com.microsoft.mrtk.graphicstools.unity-0.6.7.tgz/package.json
     m_PathExists: 0
@@ -45,7 +45,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 3713456792
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/com.microsoft.mrtk.tts.windows-1.0.4.tgz/package.json
     m_PathExists: 0
@@ -59,7 +59,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 3156441944
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.accessibility-1.0.1-pre.19.tgz/package.json
     m_PathExists: 0
@@ -73,7 +73,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 382110353
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.audio-3.0.1.tgz/package.json
     m_PathExists: 0
@@ -87,7 +87,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 2677130351
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.core-3.1.1.tgz/package.json
     m_PathExists: 0
@@ -101,7 +101,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 1052765832
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.diagnostics-3.0.1.tgz/package.json
     m_PathExists: 0
@@ -115,7 +115,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075490000000
+      ticks: 638447879530000000
     m_Hash: 2524531510
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.extendedassets-3.0.1.tgz/package.json
     m_PathExists: 0
@@ -129,7 +129,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 707702751
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.input-3.1.0.tgz/package.json
     m_PathExists: 0
@@ -143,7 +143,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 3659366819
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.spatialmanipulation-3.1.0.tgz/package.json
     m_PathExists: 0
@@ -157,7 +157,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 3197643970
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.standardassets-3.0.1.tgz/package.json
     m_PathExists: 0
@@ -171,7 +171,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 419776810
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.tools-3.0.1.tgz/package.json
     m_PathExists: 0
@@ -185,7 +185,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 3131929016
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.uxcomponents-3.1.1.tgz/package.json
     m_PathExists: 0
@@ -199,7 +199,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 1911902133
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.uxcomponents.noncanvas-3.1.1.tgz/package.json
     m_PathExists: 0
@@ -213,7 +213,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 1044922962
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.uxcore-3.1.1.tgz/package.json
     m_PathExists: 0
@@ -227,7 +227,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 993004689
   - m_FilePath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages/MixedReality/org.mixedrealitytoolkit.windowsspeech-3.0.1.tgz/package.json
     m_PathExists: 0
@@ -241,7 +241,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638445075500000000
+      ticks: 638447879540000000
     m_Hash: 2457162524
 m_ProjectPath: /Users/moisesmata/Documents/GitHub/SUITS-23-24-HMD/CUITS-HMD/Packages
 m_EditorVersion: 2022.3.7f1 (b16b3b16c7a0)
@@ -1368,10 +1368,12 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.1
     - 1.10.0
+    - 1.11.0-exp.1
     compatible:
     - 1.8.2
     - 1.9.1
     - 1.10.0
+    - 1.11.0-exp.1
     recommended: 1.8.2
     deprecated: []
   dependencies:
@@ -5685,12 +5687,14 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
     compatible:
     - 3.0.24
     - 3.0.25
     - 3.0.26
     - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
