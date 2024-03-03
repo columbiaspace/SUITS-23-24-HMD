@@ -154,6 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.DefaultCompany.CUITSHMD
     Standalone: com.DefaultCompany.CUITS-HMD
   buildNumber:
     Standalone: 0
