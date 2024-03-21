@@ -414,10 +414,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/evaTime.cs"
 "Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScConnection.cs"
 "Assets/Samples/SUITS TSSc/1.0.0/SampleTSSScene/TSScUI.cs"
 "Assets/Scripts/CUITSMenu.cs"
+"Assets/Scripts/Egress.cs"
+"Assets/Scripts/evaTime.cs"
+"Assets/Scripts/Ingress.cs"
 "Assets/Scripts/InitMap.cs"
 "Assets/Scripts/SceneSwitcher.cs"
 "Assets/Scripts/TheBrain.cs"
@@ -457,7 +459,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/UIA_PROCEDURES.cs"
 -langversion:9.0
 
 /deterministic
