@@ -425,6 +425,7 @@
 "Assets/Scripts/TheBrain.cs"
 "Assets/Scripts/TSS_DATA.cs"
 "Assets/Scripts/TSS_Serialized.cs"
+"Assets/Spawn_In_Front.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

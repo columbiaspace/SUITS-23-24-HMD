@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &42104860 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2351505566771328526, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+  m_PrefabInstance: {fileID: 1763666148}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &556752804
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +948,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MRTK XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 5302893730759227071, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+      propertyPath: m_UIScrollAction.m_Action.m_Id
+      value: acdfecd2-e779-4702-9b79-4b8654a4b3d5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302893730759227071, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+      propertyPath: m_IsTrackedAction.m_Action.m_Id
+      value: d24eb0ec-6a94-4f1e-bef3-7600728ff147
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1343,6 +1356,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4644362880907039807, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 42104860}
+    - target: {fileID: 4644362880907039807, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: thingy
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4673375011835157562, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1407,12 +1428,24 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6300086345775444827, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 42104860}
     - target: {fileID: 6916733768759766059, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6916733768759766059, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7088864810788921812, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7088864810788921812, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7960998425645899744, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
@@ -1471,10 +1504,14 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 32
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4644362880907039807, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1388493658228778554, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
 --- !u!33 &51139351411016801
 MeshFilter:
