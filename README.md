@@ -25,16 +25,14 @@ Meet our stellar crew navigating the NASA SUITS challenge:
 - Moises
 - Jonah
 - Adam
-- Sarah
 - Chloe
 - Shirley
 - Angela
-- Matt
-- Matthew
+- Matt G
+- Matthew R
 - Joshua
 - Jordyn
 - Finneas
-- Phoebe
 - Rebecca
 - Donovan
 - Zakiy
