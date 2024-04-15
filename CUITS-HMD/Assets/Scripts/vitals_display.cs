@@ -35,7 +35,7 @@ public class vitals_display : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        display_heart_rate_eva1.text = "Heart rate: {0}", TSS.tel.telemetry.eva1.heart_rate.ToString();
+        display_heart_rate_eva1.text = "Heart rate: {"+ TSS.tel.telemetry.eva1.heart_rate.ToString()+"}";
         display_suit_oxygen_pressure_eva1.text = TSS.tel.telemetry.eva1.suit_oxygen_pressure.ToString();
         display_suit_co2_pressure_eva1.text = TSS.tel.telemetry.eva1.suit_co2_pressure.ToString();
         display_suit_other_pressure_eva1.text = TSS.tel.telemetry.eva1.suit_other_pressure.ToString();
