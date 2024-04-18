@@ -36,50 +36,50 @@ public class error : MonoBehaviour
         }
 
         // suit_pressure_oxy
-        if (TSS.tel.telemetry.eva1.suit_oxygen_pressure < 3.5 || TSS.tel.telemetry.eva1.suit_oxygen_pressure > 4.1) {
+        if (TSS.tel.telemetry.eva1.suit_pressure_oxy < 3.5 || TSS.tel.telemetry.eva1.suit_pressure_oxy > 4.1) {
             display.text = "Swap to secondary oxygen tank";
         }
 
         // suit_pressure_co2
-        if (TSS.tel.telemetry.eva1.suit_co2_pressure > 0.1) {
+        if (TSS.tel.telemetry.eva1.suit_pressure_co2 > 0.1) {
             display.text = "Scrubber has filled up and must be vented";
         }
 
         // suit_pressure_other
-        if (TSS.tel.telemetry.eva1.suit_other_pressure > 0.5) {
+        if (TSS.tel.telemetry.eva1.suit_pressure_other > 0.5) {
             display.text = "Partial pressure of all gases are not zero";
         }
 
         // suit_pressure_total
-        if (TSS.tel.telemetry.eva1.suit_total_pressure < 3.5 || TSS.tel.telemetry.eva1.suit_total_pressure > 4.5) {
+        if (TSS.tel.telemetry.eva1.suit_pressure_total < 3.5 || TSS.tel.telemetry.eva1.suit_pressure_total > 4.5) {
             // suit_pressure_oxy
-            if (TSS.tel.telemetry.eva1.suit_oxygen_pressure < 3.5 || TSS.tel.telemetry.eva1.suit_oxygen_pressure > 4.1) {
+            if (TSS.tel.telemetry.eva1.suit_pressure_oxy < 3.5 || TSS.tel.telemetry.eva1.suit_pressure_oxy > 4.1) {
                 display.text = "Swap to secondary oxygen tank";
             }
             // scrubber_a_co2_storage and scrubber_b_co2_storage
-            if (TSS.tel.telemetry.eva1.scrubber_a_co2_capacity > 60 || TSS.tel.telemetry.eva1.scrubber_b_co2_capacity > 60) {
+            if (TSS.tel.telemetry.eva1.scrubber_a_co2_storage > 60 || TSS.tel.telemetry.eva1.scrubber_b_co2_storage > 60) {
                 display.text = "Vent collected carbon dioxide";
             }
         }
 
         // helmet_pressure_co2
-        if (TSS.tel.telemetry.eva1.helmet_co2_pressure > 0.15) {
+        if (TSS.tel.telemetry.eva1.helmet_pressure_co2 > 0.15) {
             display.text = "Swap to secondary fan";
         }
 
         // fan_pri_rpm and fan_sec_rpm
-        if (TSS.tel.telemetry.eva1.primary_fan_rpm != 0) {
-            if (TSS.tel.telemetry.eva1.primary_fan_rpm != 30000) {
+        if (TSS.tel.telemetry.eva1.fan_pri_rpm != 0) {
+            if (TSS.tel.telemetry.eva1.fan_pri_rpm != 30000) {
                 display.text = "Swap to secondary fan";
             }
-        } else if (TSS.tel.telemetry.eva1.secondary_fan_rpm != 0) {
-            if (TSS.tel.telemetry.eva1.secondary_fan_rpm != 30000) {
+        } else if (TSS.tel.telemetry.eva1.fan_sec_rpm != 0) {
+            if (TSS.tel.telemetry.eva1.fan_sec_rpm != 30000) {
                 display.text = "Swap to primary fan";
             }
         }
 
         // scrubber_a_co2_storage and scrubber_b_co2_storage
-        if (TSS.tel.telemetry.eva1.scrubber_a_co2_capacity > 60 || TSS.tel.telemetry.eva1.scrubber_b_co2_capacity > 60) {
+        if (TSS.tel.telemetry.eva1.scrubber_a_co2_storage > 60 || TSS.tel.telemetry.eva1.scrubber_b_co2_storage > 60) {
             display.text = "Vent collected carbon dioxide";
         }
 

@@ -44,28 +44,28 @@ public class TSS_DATA : MonoBehaviour
             public EvaData eva2 { get; set; }
             public class EvaData
             {
-                public double battery_time_left { get; set; }
-                public double primary_oxygen_storage { get; set; }
-                public double secondary_oxygen_storage { get; set; }
-                public double primary_oxygen_pressure { get; set; }
-                public double secondary_oxygen_pressure { get; set; }
-                public int oxygen_time_left { get; set; }
+                public double batt_time_left { get; set; }
+                public double oxy_pri_storage { get; set; }
+                public double oxy_sec_storage { get; set; }
+                public double oxy_pri_pressure { get; set; }
+                public double oxy_sec_pressure { get; set; }
+                public int oxy_time_left { get; set; }
                 public double heart_rate { get; set; }
-                public double oxygen_consumption { get; set; }
+                public double oxy_consumption { get; set; }
                 public double co2_production { get; set; }
-                public double suit_oxygen_pressure { get; set; }
-                public double suit_co2_pressure { get; set; }
-                public double suit_other_pressure { get; set; }
-                public double suit_total_pressure { get; set; }
-                public double primary_fan_rpm { get; set; }
-                public double secondary_fan_rpm { get; set; }
-                public double helmet_co2_pressure { get; set; }
-                public double scrubber_a_co2_capacity { get; set; }
-                public double scrubber_b_co2_capacity { get; set; }
+                public double suit_pressure_oxy { get; set; }
+                public double suit_pressure_co2 { get; set; }
+                public double suit_pressure_other { get; set; }
+                public double suit_pressure_total { get; set; }
+                public double fan_pri_rpm { get; set; }
+                public double fan_sec_rpm { get; set; }
+                public double helmet_pressure_co2 { get; set; }
+                public double scrubber_a_co2_storage { get; set; }
+                public double scrubber_b_co2_storage { get; set; }
                 public double temperature { get; set; }
                 public double coolant_ml { get; set; }
-                public double h2o_gas_pressure { get; set; }
-                public double h2o_liquid_pressure { get; set; }
+                public double coolant_gas_pressure { get; set; }
+                public double coolant_liquid_pressure { get; set; }
             }
 
         }
@@ -83,27 +83,27 @@ public class TSS_DATA : MonoBehaviour
         {
             public EvaData eva1 { get; set; }
             public EvaData eva2 { get; set; }
-                public class EvaData
+            public class EvaData
+            {
+                public string name { get; set; }
+                public int id { get; set; }
+                public ChemicalData data { get; set; }
+                public class ChemicalData
                 {
-                    public string name { get; set; }
-                    public int id { get; set; }
-                    public ChemicalData data { get; set; }
-                    public class ChemicalData
-                    {
-                        public double SiO2 { get; set; }
-                        public double TiO2 { get; set; }
-                        public double Al2O3 { get; set; }
-                        public double FeO { get; set; }
-                        public double MnO { get; set; }
-                        public double MgO { get; set; }
-                        public double CaO { get; set; }
-                        public double K2O { get; set; }
-                        public double P2O3 { get; set; }
-                    }
-
+                    public double SiO2 { get; set; }
+                    public double TiO2 { get; set; }
+                    public double Al2O3 { get; set; }
+                    public double FeO { get; set; }
+                    public double MnO { get; set; }
+                    public double MgO { get; set; }
+                    public double CaO { get; set; }
+                    public double K2O { get; set; }
+                    public double P2O3 { get; set; }
                 }
 
             }
+
+        }
 
     }
 
@@ -153,7 +153,7 @@ public class TSS_DATA : MonoBehaviour
         }
     }
 
-    public class  COMMData
+    public class COMMData
     {
         public COMM comm { get; set; }
         public class COMM
@@ -163,7 +163,7 @@ public class TSS_DATA : MonoBehaviour
     }
 
 
-   // TSSc Connection
+    // TSSc Connection
     public TSScConnection TSSc;
 
 
@@ -179,20 +179,20 @@ public class TSS_DATA : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-         
+
         // Check if the UIA data has been updated
         if (TSSc.isUIAUpdated())
         {
             Debug.Log("UIA Updated");
             string UIAJsonString = TSSc.GetUIAJsonString();
             uia = JsonConvert.DeserializeObject<UIAData>(UIAJsonString);
-    //        UIAJsonDisplay.text = uiaData.uia.eva1_power.ToString();
+            //        UIAJsonDisplay.text = uiaData.uia.eva1_power.ToString();
             // Use the deserialized data as needed
             // UIAJsonDisplay.text = eva1Power.ToString();
         }
@@ -238,9 +238,9 @@ public class TSS_DATA : MonoBehaviour
             //Display the spec data as a nicely formatted string
             spec = JsonConvert.DeserializeObject<SpecData>(SPECJsonString);
 
-//            SPECJsonDisplay.text = formattedText;
+            //            SPECJsonDisplay.text = formattedText;
             // SPECJsonDisplay.text = "SPEC Data: \n" + eva1Data + "\n\n" + eva2Data;
-            
+
             // Displays the SPEC data to the screen (Your's should be more complicated)
             // SPECJsonDisplay.text = SPECJsonString;
         }
