@@ -175,6 +175,7 @@ public class TSS_DATA : MonoBehaviour
     public TelemetryData tel;
     public COMMData com;
     public IMUData imu;
+    public bool rockToScan = false;
 
     // Start is called before the first frame update
     void Start()
@@ -192,6 +193,7 @@ public class TSS_DATA : MonoBehaviour
             Debug.Log("UIA Updated");
             string UIAJsonString = TSSc.GetUIAJsonString();
             uia = JsonConvert.DeserializeObject<UIAData>(UIAJsonString);
+            rockToScan = true;
             //        UIAJsonDisplay.text = uiaData.uia.eva1_power.ToString();
             // Use the deserialized data as needed
             // UIAJsonDisplay.text = eva1Power.ToString();
