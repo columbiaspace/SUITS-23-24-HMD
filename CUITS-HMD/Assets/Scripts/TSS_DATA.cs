@@ -176,6 +176,8 @@ public class TSS_DATA : MonoBehaviour
     public COMMData com;
     public IMUData imu;
     public bool rockToScan = false;
+    public bool duringEVA = false;
+    //this bool is so error checking only checks at appropriate times
 
     // Start is called before the first frame update
     void Start()

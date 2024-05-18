@@ -19,6 +19,7 @@ public class TSS_Serialized : MonoBehaviour
     
     // TSSc Connection
     public TSScConnection TSSc;
+    public LMCC_CONNECT LMCCc;
 
     // UI Input
     public TMP_InputField InputFieldUrl;
@@ -27,6 +28,7 @@ public class TSS_Serialized : MonoBehaviour
     //Status displays
     public TMP_Text status;
     public TMP_Text ip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,23 +45,30 @@ public class TSS_Serialized : MonoBehaviour
     {
         // Get URL in Text Field
         string host = InputFieldUrl.text;
+
+        LMCCc.ConnectToHost(host);
+        if(LMCCc.connected = true){
+        ip.text = "LMCC: Connected";
         // Print Hostname to Logs
         Debug.Log("Button Pressed: " + host);
+        string tss_ip = LMCCc.the_config.TSS_IP;
 
         // Connect to TSSc at that Host
-        TSSc.ConnectToHost(host, 5);
+        TSSc.ConnectToHost(tss_ip, 5);
         if(TSSc.connected == true){
-ip.text = "IP: " + host;
-status.text = "TSS: Connected";
+        status.text = "TSS: Connected";
+        }
+
         }
     }
 
     public void Disconnect_Button()
     {
         // Disconnects from TSS when
-        ip.text = "IP: N/A";
+        ip.text = "LMCC: Not Connected";
         status.text = "TSS: Not Connected";
         TSSc.DisconnectFromHost();
+        LMCCc.DisconnectFromHost();
     }
 
 }
