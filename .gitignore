@@ -1,13 +1,14 @@
 # unity gitignore via:
 # https://gist.github.com/ferociouself/b2d7b6e58092afec275f3f8ed59762d1
 
-*/[Ll]ibrary/
-*/[Tt]emp/
-*/[Oo]bj/
-*/[Bb]uild/
-*/[Bb]uilds/
-*[Uu]serSettings/ 
-*/Assets/AssetStoreTools*
+CUITS-HMD/Library/ArtifactDB
+CUITS-HMD/[Ll]ibrary/
+CUITS-HMD/[Tt]emp/
+CUITS-HMD/[Oo]bj/
+CUITS-HMD/[Bb]uild/
+CUITS-HMD/[Bb]uilds/
+CUITS-HMD[Uu]serSettings/ 
+CUITS-HMD/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 */.vs/
