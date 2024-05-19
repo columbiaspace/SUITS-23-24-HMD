@@ -1,5 +1,8 @@
 # unity gitignore via:
 # https://gist.github.com/ferociouself/b2d7b6e58092afec275f3f8ed59762d1
+app.config
+mono_crash.mem.14094.1.blob
+packages.config
 */.vscode/
 */.vsconfig
 */[Ll]ibrary/
