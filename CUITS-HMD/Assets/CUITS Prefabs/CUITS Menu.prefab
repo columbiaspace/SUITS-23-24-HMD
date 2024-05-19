@@ -11717,6 +11717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TSS: {fileID: 0}
+  TSSc: {fileID: 0}
   display: {fileID: 8862808179994252760}
   check: {fileID: 0}
 --- !u!1 &2989640013509501722
@@ -15803,6 +15804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TSS: {fileID: 0}
+  TSSc: {fileID: 0}
   display: {fileID: 2737323519567307402}
   check: {fileID: 0}
 --- !u!1 &3958486683694032749
@@ -17916,6 +17918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TSS: {fileID: 0}
+  TSSc: {fileID: 0}
   display: {fileID: 3880879010547681066}
   check: {fileID: 0}
 --- !u!1 &4379743010424806063
@@ -30739,7 +30742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7088864810788921812
 RectTransform:
   m_ObjectHideFlags: 0

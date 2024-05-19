@@ -16,8 +16,14 @@ using System.Xml;
 public class evaTime : MonoBehaviour
 {
    public TSS_DATA TSS;
+   public TSScConnection TSSc;
    public TMP_Text display; 
-    public TMP_Text check;
+   public TMP_Text check;
+
+   int hours;
+   int minutes;
+   int seconds;
+   int time_in_secs;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +33,16 @@ public class evaTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(check.text.Equals("TSS: Connected")){
-       display.text = TSS.tel.telemetry.eva_time.ToString(); 
+       if(TSSc.connected ==true){
+       time_in_secs = TSS.tel.telemetry.eva_time;
+       hours = time_in_secs/3600;
+       minutes = time_in_secs / 60;
+       seconds = time_in_secs % 60;
+       if(seconds >= 10){
+       display.text = hours.ToString() + ":" + minutes.ToString() + "." + seconds.ToString(); 
+       }else{
+       display.text = hours.ToString() + ":" + minutes.ToString() + "."  + "0" + seconds.ToString() ;
+       }
        }
     }
 }
