@@ -143,8 +143,8 @@ UIA and DCU  1.  EV1 and EV2 connect UIA and DCU umbilical
             if (!steps[1][1])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_POWER.SetActive(!tss_obj.uia.uia.eva1_power);
-                if (!tss_obj.uia.uia.eva1_power) return;
+                EMU2_POWER.SetActive(!tss_obj.uia.uia.eva2_power);
+                if (!tss_obj.uia.uia.eva2_power) return;
                 if (!dcu_batt_msg(true)) return;
                 steps[1][1] = true;
             }
@@ -152,8 +152,8 @@ UIA and DCU  1.  EV1 and EV2 connect UIA and DCU umbilical
             if (!steps[1][2])
             {
                 text.text = "Toggle Highlighted Switch.";
-                bool e_pow = tss_obj.uia.uia.eva1_power;
-                EMU1_POWER.SetActive(!e_pow);
+                bool e_pow = tss_obj.uia.uia.eva2_power;
+                EMU2_POWER.SetActive(!e_pow);
                 if (!e_pow) return;
                 steps[1][2] = true;
             }
@@ -208,8 +208,8 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             // HMD		2.   Wait until both Primary and Secondary OXY tanks are < 10psi
             if (!steps[2][2])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.oxy_pri_storage;
-                double s1 = tss_obj.tel.telemetry.eva1.oxy_sec_storage;
+                double p1 = tss_obj.tel.telemetry.eva2.oxy_pri_storage;
+                double s1 = tss_obj.tel.telemetry.eva2.oxy_sec_storage;
                 text.text = "eva1 primary: " + p1 + " secondary: " + s1;//+ " eva2 primary: " + p2 + " secondary: " + s2 + ".";
                 bool empty = p1 < 10 && s1 < 10; //&& p2 == 0 && s2 == 0;
                 if (!empty) return;
@@ -239,8 +239,8 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             if (!steps[2][5])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_OXY.SetActive(!tss_obj.uia.uia.eva1_oxy);
-                if (!tss_obj.uia.uia.eva1_oxy) return;
+                EMU2_OXY.SetActive(!tss_obj.uia.uia.eva2_oxy);
+                if (!tss_obj.uia.uia.eva2_oxy) return;
 
                 steps[2][5] = true;
             }
@@ -248,7 +248,7 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             // HMD		6.    Wait until EV1 and EV2 Primary O2 tanks > 3000 psi
             if (!steps[2][6])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.oxy_pri_pressure;
+                double p1 = tss_obj.tel.telemetry.eva2.oxy_pri_pressure;
                 text.text = "Primary oxygen pressure: " + p1 + ".";
                 if (p1 < 3000) return;
 
@@ -259,8 +259,8 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             if (!steps[2][7])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_OXY.SetActive(tss_obj.uia.uia.eva1_oxy);
-                if (tss_obj.uia.uia.eva1_oxy) return;
+                EMU2_OXY.SetActive(tss_obj.uia.uia.eva2_oxy);
+                if (tss_obj.uia.uia.eva2_oxy) return;
 
                 steps[2][7] = true;
             }
@@ -277,8 +277,8 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             if (!steps[2][9])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_OXY.SetActive(!tss_obj.uia.uia.eva1_oxy);
-                if (!tss_obj.uia.uia.eva1_oxy) return;
+                EMU2_OXY.SetActive(!tss_obj.uia.uia.eva2_oxy);
+                if (!tss_obj.uia.uia.eva2_oxy) return;
 
                 steps[2][9] = true;
             }
@@ -286,7 +286,7 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             // HMD  	10.  Wait until EV1 and EV2 Secondary O2 tanks > 3000 psi
             if (!steps[2][10])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.oxy_sec_pressure;
+                double p1 = tss_obj.tel.telemetry.eva2.oxy_sec_pressure;
                 text.text = "Secondary oxygen pressure: " + p1 + ".";
                 if (p1 < 3000) return;
 
@@ -297,8 +297,8 @@ UIA		9.    OXYGEN EMU-1, EMU-2 – OPEN
             if (!steps[2][11])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_OXY.SetActive(tss_obj.uia.uia.eva1_oxy);
-                if (tss_obj.uia.uia.eva1_oxy) return;
+                EMU2_OXY.SetActive(tss_obj.uia.uia.eva2_oxy);
+                if (tss_obj.uia.uia.eva2_oxy) return;
 
                 steps[2][11] = true;
             }
@@ -339,8 +339,8 @@ Prep Water Tanks
             if (!steps[3][2])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EV1_WASTE.SetActive(!tss_obj.uia.uia.eva1_water_waste);
-                if (!tss_obj.uia.uia.eva1_water_waste) return;
+                EV2_WASTE.SetActive(!tss_obj.uia.uia.eva2_water_waste);
+                if (!tss_obj.uia.uia.eva2_water_waste) return;
 
                 steps[3][2] = true;
             }
@@ -348,7 +348,7 @@ Prep Water Tanks
             // HMD 	3.  Wait until water EV1 and EV2 Coolant tank is < 5%
             if (!steps[3][3])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.coolant_ml;
+                double p1 = tss_obj.tel.telemetry.eva2.coolant_ml;
                 text.text = "Coolant (mL): " + p1 + ".";
                 if (p1 < 5) return;
 
@@ -359,9 +359,9 @@ Prep Water Tanks
             if (!steps[3][4])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EV1_WASTE.SetActive(tss_obj.uia.uia.eva1_water_waste);
+                EV2_WASTE.SetActive(tss_obj.uia.uia.eva2_water_waste);
 
-                if (tss_obj.uia.uia.eva1_water_waste) return;
+                if (tss_obj.uia.uia.eva2_water_waste) return;
                 steps[3][4] = true;
             }
 
@@ -369,14 +369,14 @@ Prep Water Tanks
             if (!steps[3][5])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EV1_SUPPLY.SetActive(!tss_obj.uia.uia.eva1_water_supply);
+                EV2_SUPPLY.SetActive(!tss_obj.uia.uia.eva2_water_supply);
                 steps[3][5] = true;
             }
 
             // HMD		6.  Wait until water EV1 and EV2 Coolant tank is > 95%
             if (!steps[3][6])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.coolant_ml;
+                double p1 = tss_obj.tel.telemetry.eva2.coolant_ml;
                 text.text = "Coolant (mL): " + p1 + ".";
                 if (p1 < 95) return;
                 steps[3][6] = true;
@@ -386,8 +386,8 @@ Prep Water Tanks
             if (!steps[3][7])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EV1_SUPPLY.SetActive(tss_obj.uia.uia.eva1_water_supply);
-                if (tss_obj.uia.uia.eva1_water_supply) return;
+                EV2_SUPPLY.SetActive(tss_obj.uia.uia.eva2_water_supply);
+                if (tss_obj.uia.uia.eva2_water_supply) return;
                 steps[3][7] = true;
             }
 
@@ -418,8 +418,8 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
             // HMD		1.  Wait until SUIT P, O2 P = 4
             if (!steps[4][1])
             {
-                double suit_p = tss_obj.tel.telemetry.eva1.suit_pressure_total;
-                double suit_o2 = tss_obj.tel.telemetry.eva1.suit_pressure_oxy;
+                double suit_p = tss_obj.tel.telemetry.eva2.suit_pressure_total;
+                double suit_o2 = tss_obj.tel.telemetry.eva2.suit_pressure_oxy;
                 text.text = "Suit pressure: " + suit_p + " O2 pressure: " + suit_o2 + ".";
                 if (!((suit_p - 4) < .01 && (suit_o2 - 4) < .01)) return;
                 steps[4][1] = true;
@@ -445,8 +445,8 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
             if (!steps[4][4])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_POWER.SetActive(tss_obj.uia.uia.eva1_power);
-                if (tss_obj.uia.uia.eva1_power) return;
+                EMU2_POWER.SetActive(tss_obj.uia.uia.eva2_power);
+                if (tss_obj.uia.uia.eva2_power) return;
                 steps[4][4] = true;
             }
 
@@ -488,11 +488,16 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
             // UIA and DCU  10.  EV1 and EV2 disconnect UIA and DCU umbilical
             if (!steps[4][10])
             {
-                EMU1_POWER.SetActive(!tss_obj.uia.uia.eva1_power);
-                if (!tss_obj.uia.uia.eva1_power) return;
+                text.text = "Toggle Highlighted Switch.";
+                EMU2_POWER.SetActive(!tss_obj.uia.uia.eva2_power);
+                if (!tss_obj.uia.uia.eva2_power) return;
                 if (!dcu_batt_msg(false)) return;
                 steps[4][10] = true;
                 tss_obj.duringEVA = true;
+            }
+
+            if(tss_obj.duringEVA == true){
+                text.text = "Egress Complete!";
             }
         }
     }
@@ -502,7 +507,7 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
     bool dcu_batt_msg(bool mode)
     {
         string modeText = mode ? "umbilical" : "local";
-        if (tss_obj.dcu.dcu.eva1.batt != mode)
+        if (tss_obj.dcu.dcu.eva2.batt != mode)
         {
             text.text = "Switch DCU batt to " + modeText + ". ";
             return false;
@@ -512,7 +517,7 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
     bool dcu_oxy_msg(bool mode)
     {
         string modeText = mode ? "primary" : "secondary";
-        if (tss_obj.dcu.dcu.eva1.oxy != mode)
+        if (tss_obj.dcu.dcu.eva2.oxy != mode)
         {
             text.text = "Switch DCU oxy to " + modeText + ". ";
             return false;
@@ -523,7 +528,7 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
     bool dcu_comm_msg(bool mode)
     {
         string modeText = mode ? "A" : "B";
-        if (tss_obj.dcu.dcu.eva1.comm != mode)
+        if (tss_obj.dcu.dcu.eva2.comm != mode)
         {
             text.text = "Switch DCU comm to " + modeText + ". ";
             return false;
@@ -534,7 +539,7 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
     bool dcu_fan_msg(bool mode)
     {
         string modeText = mode ? "primary" : "secondary";
-        if (tss_obj.dcu.dcu.eva1.fan != mode)
+        if (tss_obj.dcu.dcu.eva2.fan != mode)
         {
             text.text = "Switch DCU fan to " + modeText + ". ";
             return false;
@@ -545,7 +550,7 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
     bool dcu_pump_msg(bool mode)
     {
         string modeText = mode ? "open" : "closed";
-        if (tss_obj.dcu.dcu.eva1.pump != mode)
+        if (tss_obj.dcu.dcu.eva2.pump != mode)
         {
             text.text = "Switch DCU pump to " + modeText + ". ";
             return false;
@@ -556,7 +561,7 @@ UIA and DCU  9.  EV1 and EV2 disconnect UIA and DCU umbilical
     bool dcu_co2_msg(bool mode)
     {
         string modeText = mode ? "A" : "B";
-        if (tss_obj.dcu.dcu.eva1.co2 != mode)
+        if (tss_obj.dcu.dcu.eva2.co2 != mode)
         {
             text.text = "Switch DCU co2 to " + modeText + ". ";
             return false;

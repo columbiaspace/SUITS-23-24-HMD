@@ -89,8 +89,8 @@ public class Ingress : MonoBehaviour
             if (!steps[1][1])
             {
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_POWER.SetActive(!tss_obj.uia.uia.eva1_power);
-                if (!tss_obj.uia.uia.eva1_power) return;
+                EMU2_POWER.SetActive(!tss_obj.uia.uia.eva2_power);
+                if (!tss_obj.uia.uia.eva2_power) return;
                 if (!dcu_batt_msg(true)) return;
                 steps[1][1] = true;
             }
@@ -125,9 +125,9 @@ public class Ingress : MonoBehaviour
             // HMD 2. Wait until both Primary and Secondary OXY tanks are < 10psi
             if (!steps[2][2])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.oxy_pri_storage;
-                double s1 = tss_obj.tel.telemetry.eva1.oxy_sec_storage;
-                text.text = "eva1 primary: " + p1 + " secondary: " + s1;//+ " eva2 primary: " + p2 + " secondary: " + s2 + ".";
+                double p1 = tss_obj.tel.telemetry.eva2.oxy_pri_storage;
+                double s1 = tss_obj.tel.telemetry.eva2.oxy_sec_storage;
+                text.text = "eva2 primary: " + p1 + " secondary: " + s1;//+ " eva2 primary: " + p2 + " secondary: " + s2 + ".";
                 bool empty = p1 < 10 && s1 < 10; //&& p2 == 0 && s2 == 0;
                 if (!empty) return;
 
@@ -161,15 +161,15 @@ public class Ingress : MonoBehaviour
             {
                 // Open waste water valve
                 text.text = "Toggle Highlighted Switch.";
-                EV1_WASTE.SetActive(!tss_obj.uia.uia.eva1_water_waste);
-                if (!tss_obj.uia.uia.eva1_water_waste) return;
+                EV2_WASTE.SetActive(!tss_obj.uia.uia.eva2_water_waste);
+                if (!tss_obj.uia.uia.eva2_water_waste) return;
                 steps[3][2] = true;
             }
 
             // HMD 3. Wait until water EV1 and EV2 Coolant tank is < 5%
             if (!steps[3][3])
             {
-                double p1 = tss_obj.tel.telemetry.eva1.coolant_ml;
+                double p1 = tss_obj.tel.telemetry.eva2.coolant_ml;
                 text.text = "Coolant: " + p1 + ".";
                 if (p1 < 5) return;
 
@@ -181,8 +181,8 @@ public class Ingress : MonoBehaviour
             {
                 // Close waste water valve
                 text.text = "Toggle Highlighted Switch.";
-                EV1_WASTE.SetActive(tss_obj.uia.uia.eva1_water_waste);
-                if (tss_obj.uia.uia.eva1_water_waste) return;
+                EV2_WASTE.SetActive(tss_obj.uia.uia.eva2_water_waste);
+                if (tss_obj.uia.uia.eva2_water_waste) return;
                 steps[3][4] = true;
             }
         }
@@ -195,8 +195,8 @@ public class Ingress : MonoBehaviour
             {
                 // Deactivate EMU power
                 text.text = "Toggle Highlighted Switch.";
-                EMU1_POWER.SetActive(tss_obj.uia.uia.eva1_power);
-                if (tss_obj.uia.uia.eva1_power) return;
+                EMU2_POWER.SetActive(tss_obj.uia.uia.eva2_power);
+                if (tss_obj.uia.uia.eva2_power) return;
 
                 steps[4][1] = true;
             }
@@ -213,7 +213,7 @@ public class Ingress : MonoBehaviour
     bool dcu_batt_msg(bool mode)
     {
         string modeText = mode ? "umbilical" : "local";
-        if (tss_obj.dcu.dcu.eva1.batt != mode)
+        if (tss_obj.dcu.dcu.eva2.batt != mode)
         {
             text.text = "Switch DCU batt to " + modeText + ". ";
             return false;
@@ -223,7 +223,7 @@ public class Ingress : MonoBehaviour
     bool dcu_oxy_msg(bool mode)
     {
         string modeText = mode ? "primary" : "secondary";
-        if (tss_obj.dcu.dcu.eva1.oxy != mode)
+        if (tss_obj.dcu.dcu.eva2.oxy != mode)
         {
             text.text = "Switch DCU oxy to " + modeText + ". ";
             return false;
@@ -234,7 +234,7 @@ public class Ingress : MonoBehaviour
     bool dcu_comm_msg(bool mode)
     {
         string modeText = mode ? "A" : "B";
-        if (tss_obj.dcu.dcu.eva1.comm != mode)
+        if (tss_obj.dcu.dcu.eva2.comm != mode)
         {
             text.text = "Switch DCU comm to " + modeText + ". ";
             return false;
@@ -245,7 +245,7 @@ public class Ingress : MonoBehaviour
     bool dcu_fan_msg(bool mode)
     {
         string modeText = mode ? "primary" : "secondary";
-        if (tss_obj.dcu.dcu.eva1.fan != mode)
+        if (tss_obj.dcu.dcu.eva2.fan != mode)
         {
             text.text = "Switch DCU fan to " + modeText + ". ";
             return false;
@@ -256,7 +256,7 @@ public class Ingress : MonoBehaviour
     bool dcu_pump_msg(bool mode)
     {
         string modeText = mode ? "open" : "closed";
-        if (tss_obj.dcu.dcu.eva1.pump != mode)
+        if (tss_obj.dcu.dcu.eva2.pump != mode)
         {
             text.text = "Switch DCU pump to " + modeText + ". ";
             return false;
@@ -267,7 +267,7 @@ public class Ingress : MonoBehaviour
     bool dcu_co2_msg(bool mode)
     {
         string modeText = mode ? "A" : "B";
-        if (tss_obj.dcu.dcu.eva1.co2 != mode)
+        if (tss_obj.dcu.dcu.eva2.co2 != mode)
         {
             text.text = "Switch DCU co2 to " + modeText + ". ";
             return false;

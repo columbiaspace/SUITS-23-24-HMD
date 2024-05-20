@@ -264,4 +264,35 @@ public class LMCC_CONNECT : MonoBehaviour
 
     }
 
+
+////////////////////////////////////////////////////////////////////////// Sending data for pin dropping
+ public IEnumerator Upload_for_pin()
+    {
+        // Create a UnityWebRequest for a POST method
+        UnityWebRequest www = UnityWebRequest.PostWwwForm(this.url + "/drop_pin_here/2", "");
+
+        // Set the 'accept' header to 'application/json'
+        www.SetRequestHeader("accept", "application/json");
+
+        // Send the request and wait for a response
+        yield return www.SendWebRequest();
+
+        // Check for errors
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError(www.error);
+        }
+        else
+        {
+            Debug.Log("Form upload complete!");
+        }
+    }
+
+
+public void drooop_pin(){
+    StartCoroutine(Upload_for_pin());
 }
+
+}
+
+
