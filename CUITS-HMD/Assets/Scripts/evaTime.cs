@@ -20,7 +20,6 @@ public class evaTime : MonoBehaviour
    public TMP_Text display; 
    public TMP_Text check;
 
-   int hours;
    int minutes;
    int seconds;
    int time_in_secs;
@@ -35,13 +34,12 @@ public class evaTime : MonoBehaviour
     {
        if(TSSc.connected ==true){
        time_in_secs = TSS.tel.telemetry.eva_time;
-       hours = time_in_secs/3600;
        minutes = time_in_secs / 60;
        seconds = time_in_secs % 60;
        if(seconds >= 10){
-       display.text = hours.ToString() + ":" + minutes.ToString() + "." + seconds.ToString(); 
+       display.text = minutes.ToString() + ":" + seconds.ToString(); 
        }else{
-       display.text = hours.ToString() + ":" + minutes.ToString() + "."  + "0" + seconds.ToString() ;
+       display.text = minutes.ToString() + ":"  + "0" + seconds.ToString() ;
        }
        }
     }
