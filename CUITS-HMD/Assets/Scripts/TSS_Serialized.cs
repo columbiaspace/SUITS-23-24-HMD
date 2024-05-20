@@ -47,18 +47,18 @@ public class TSS_Serialized : MonoBehaviour
         string host = InputFieldUrl.text;
 
         LMCCc.ConnectToHost(host);
-        if(LMCCc.connected = true){
-        ip.text = "LMCC: Connected";
-        // Print Hostname to Logs
-        Debug.Log("Button Pressed: " + host);
-        string tss_ip = LMCCc.the_config.TSS_IP;
+        if(LMCCc.connected == true){
+            ip.text = "LMCC: Connected";
+            // Print Hostname to Logs
+            Debug.Log("Button Pressed: " + host);
+            string tss_ip = LMCCc.the_config.TSS_IP;
 
-        // Connect to TSSc at that Host
-        TSSc.ConnectToHost(tss_ip, 5);
-        if(TSSc.connected == true){
-        status.text = "TSS: Connected";
-        }
-
+            // Connect to TSSc at that Host
+            TSSc.ConnectToHost(tss_ip, 5);
+            if (TSSc.connected == true)
+            {
+                status.text = "TSS: Connected";
+            }
         }
     }
 

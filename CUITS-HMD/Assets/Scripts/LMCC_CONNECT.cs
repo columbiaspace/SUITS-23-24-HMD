@@ -102,7 +102,7 @@ public class LMCC_CONNECT : MonoBehaviour
         Debug.Log(this.url);
 
         // Test Connection
-        StartCoroutine(GetRequest(this.url));
+        StartCoroutine(GetRequest(this.url + "/get_config"));
     }
 
     public void DisconnectFromHost()

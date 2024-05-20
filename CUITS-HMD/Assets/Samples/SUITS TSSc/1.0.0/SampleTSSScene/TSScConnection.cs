@@ -36,9 +36,8 @@ public class TSScConnection : MonoBehaviour
     public void ConnectToHost(string host, int team_number)
     {
         this.host = host;
-        this.port = "14141";
         this.team_number = team_number;
-        this.url = "http://" + this.host ;
+        this.url = "http://" + this.host;
         Debug.Log(this.url);
 
         // Test Connection
