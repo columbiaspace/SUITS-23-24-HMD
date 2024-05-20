@@ -44,6 +44,13 @@ public class LMCC_CONNECT : MonoBehaviour
     public string MAPBOX_KEY { get; set; }
     public string HOLO_IP { get; set; }
     public string SERVER_IP { get; set; }
+
+    public string EV1_HOLO_IP { get; set; }
+    public string EV2_HOLO_IP { get; set; }
+    public string EV1_TEAM_ID { get; set; }
+    public string EV2_TEAM_ID { get; set; }
+
+    public string ROVER_IP { get; set; }
     }
 
     // Connection

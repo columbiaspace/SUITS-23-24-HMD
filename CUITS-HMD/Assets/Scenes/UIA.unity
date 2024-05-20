@@ -181,8 +181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TSS: {fileID: 2086301970}
   display: {fileID: 1126133890}
-  oxyError: 1
-  fanError: 0
 --- !u!114 &909794919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,7 +648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0:0.0
+  m_text: 0:00
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -747,6 +745,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d31442d6270f5d4a97f0b8a3a7c07a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2086301972 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3317199719561276437, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+  m_PrefabInstance: {fileID: 2137082601}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363ec6c8389bb2e47bb1b6e088512976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2137082601
@@ -1192,6 +1201,30 @@ PrefabInstance:
     - target: {fileID: 6030426186144350670, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076882833217603164, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076882833217603164, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076882833217603164, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2086301972}
+    - target: {fileID: 6076882833217603164, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: drooop_pin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076882833217603164, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LMCC_CONNECT, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076882833217603164, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6300086345775444827, guid: d34b42870cf9c2d47a3568c488779818, type: 3}
       propertyPath: Camera

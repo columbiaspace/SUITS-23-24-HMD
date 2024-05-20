@@ -206,6 +206,7 @@ public class Ingress : MonoBehaviour
             {
                 if (!dcu_batt_msg(false)) return;
                 steps[4][2] = true;
+                text.text = "Ingress Complete!";
             }
         }
     }
