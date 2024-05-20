@@ -16,7 +16,7 @@ using System.Xml;
 public class vitals_display : MonoBehaviour
 {
     public TSS_DATA TSS;
-
+    public TMP_Text title;
     public TMP_Text display_batt_time_left_eva1;
     public TMP_Text display_oxy_pri_storage_eva1;
     public TMP_Text display_oxy_sec_storage_eva1;
@@ -111,5 +111,13 @@ public class vitals_display : MonoBehaviour
         display_coolant_ml_eva2.text = "Coolant ml: {" + TSS.tel.telemetry.eva2.coolant_ml.ToString() + "}";
         display_coolant_gas_pressure_eva2.text = "Coolant gas pressure: {" + TSS.tel.telemetry.eva2.coolant_gas_pressure.ToString() + "}";
         display_coolant_liquid_pressure_eva2.text = "Coolant liquid pressure: {" + TSS.tel.telemetry.eva2.coolant_liquid_pressure.ToString() + "}";
+    }
+
+    public void eva1(){
+        title.text = "EVA1 Telemetry";
+    }
+
+    public void eva2(){
+        title.text = "EVA2 Telemetry";
     }
 }
