@@ -18,8 +18,8 @@ public class ConvertCoords : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        uniposx = TSS.imu.dcu.eva1.posx - 298354.99707 + (.0030824 * (TSS.imu.dcu.eva1.posx - 298355));
-        uniposy = TSS.imu.dcu.eva1.posy - 3272382.95751 + (.0026632407 * (TSS.imu.dcu.eva1.posy - 3272383));
+        uniposx = .00293 + (.0030824 * (TSS.imu.dcu.eva1.posx - 298355));
+        uniposy = .04249 + (.0026632407 * (TSS.imu.dcu.eva1.posy - 3272383));
 
         pin.transform.position = new Vector3((float)uniposx, (float)uniposy, 0);
     }
