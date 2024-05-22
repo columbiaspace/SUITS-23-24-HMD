@@ -5,9 +5,9 @@ using TMPro;
 public class Procedure_Display : MonoBehaviour
 {
     public LMCC_CONNECT lmcc;
-    
     public TMP_Text Title;
     public TMP_Text Body;
+    int counter = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -19,17 +19,21 @@ public class Procedure_Display : MonoBehaviour
     void Update()
     {
        Title.text = lmcc.GoldenProcedure.title;
-
         Body.text = "";
-        foreach (var thing in lmcc.GoldenProcedure.steps) {
-            Body.text += thing.step;
+        Body.text += lmcc.GoldenProcedure.steps[counter].step;
+        Body.text += " (";
+        Body.text += lmcc.GoldenProcedure.steps[counter].role;
+        Body.text += "): ";
+        Body.text += lmcc.GoldenProcedure.steps[counter].description;
+
+    }
+
+    public void nextStep(){
+            ++counter;
+            Body.text += lmcc.GoldenProcedure.steps[counter].step;
             Body.text += " (";
-            Body.text += thing.role;
+            Body.text += lmcc.GoldenProcedure.steps[counter].role;
             Body.text += "): ";
-            Body.text += thing.description;
-            Body.text +=  "\n\n";
-
-        }
-
+            Body.text += lmcc.GoldenProcedure.steps[counter].description;
     }
 }

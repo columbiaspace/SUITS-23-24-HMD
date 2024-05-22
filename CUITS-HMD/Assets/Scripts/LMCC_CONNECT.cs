@@ -33,11 +33,6 @@ public class LMCC_CONNECT : MonoBehaviour
         public List<Step> steps { get; set; }
     }
 
-    public class MessObject
-    {
-
-    }
-
     public class Configuration
     {
     public string TSS_IP { get; set; }
@@ -64,14 +59,11 @@ public class LMCC_CONNECT : MonoBehaviour
     // Database Jsons
     bool ProcUpdated;
     string ProcJsonString;
-    bool MessUpdated;
-    string MessJsonString;
     bool ConfigUpdated;
     string ConfigJsonString;
 
     // Procedure and Message Objects 
     public ProcObject GoldenProcedure;
-    public MessObject GoldenMessage;
     public Configuration the_config;
 
     IEnumerator GetRequest(string uri)
@@ -150,39 +142,6 @@ public class LMCC_CONNECT : MonoBehaviour
         return ProcUpdated;
     }
 
-    ///////////////////////////////////////////// Messages
-
-    IEnumerator GetMessState()
-    {
-        using (UnityWebRequest webRequest = UnityWebRequest.Get(this.url + "/get_message"))
-        {
-            // Request and wait for the desired page.
-            yield return webRequest.SendWebRequest();
-
-            switch (webRequest.result)
-            {
-                case UnityWebRequest.Result.Success:
-                    if (this.MessJsonString != webRequest.downloadHandler.text)
-                    {
-                        this.MessUpdated = true;
-                        this.MessJsonString = webRequest.downloadHandler.text;
-                    }
-                    break;
-            }
-
-        }
-    }
-
-    public string GetMessJsonString()
-    {
-        MessUpdated = false;
-        return this.MessJsonString;
-    }
-
-    public bool isMessUpdated()
-    {
-        return MessUpdated;
-    }
     
     ///////////////////////////////////////////// Config
 
@@ -238,7 +197,6 @@ public class LMCC_CONNECT : MonoBehaviour
             {
                 // Pull TSSc Updates
                 StartCoroutine(GetProcState());
-                StartCoroutine(GetMessState()); 
                 StartCoroutine(GetConfigState()); 
                 time_since_last_update = 0.0f;
             }
@@ -251,14 +209,6 @@ public class LMCC_CONNECT : MonoBehaviour
             Debug.Log("Procedure Updated");
             string ProcJsonString = GetProcJsonString();
             GoldenProcedure = JsonConvert.DeserializeObject<ProcObject>(ProcJsonString);
-        }
-
-        // Check if the DCU data has been updated
-        if (isMessUpdated())
-        {
-            Debug.Log("Message Updated");
-            string MessJsonString = GetMessJsonString();
-            GoldenMessage = JsonConvert.DeserializeObject<MessObject>(MessJsonString);
         }
 
         // Check if the DCU data has been updated
