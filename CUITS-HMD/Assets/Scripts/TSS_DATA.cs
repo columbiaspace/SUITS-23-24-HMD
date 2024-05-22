@@ -175,7 +175,6 @@ public class TSS_DATA : MonoBehaviour
     public TelemetryData tel;
     public COMMData com;
     public IMUData imu;
-    public bool rockToScan = false;
     public bool duringEVA = false;
     //this bool is so error checking only checks at appropriate times
 
@@ -195,7 +194,7 @@ public class TSS_DATA : MonoBehaviour
             Debug.Log("UIA Updated");
             string UIAJsonString = TSSc.GetUIAJsonString();
             uia = JsonConvert.DeserializeObject<UIAData>(UIAJsonString);
-            rockToScan = true;
+            
             //        UIAJsonDisplay.text = uiaData.uia.eva1_power.ToString();
             // Use the deserialized data as needed
             // UIAJsonDisplay.text = eva1Power.ToString();
@@ -235,7 +234,6 @@ public class TSS_DATA : MonoBehaviour
         if (TSSc.isSPECUpdated())
         {
             Debug.Log("SPEC Updated");
-
             // Get the Updated SPEC Json
             string SPECJsonString = TSSc.GetSPECJsonString();
 

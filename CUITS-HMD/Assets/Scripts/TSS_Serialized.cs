@@ -54,7 +54,7 @@ public class TSS_Serialized : MonoBehaviour
             string tss_ip = LMCCc.the_config.TSS_IP;
 
             // Connect to TSSc at that Host
-            TSSc.ConnectToHost(tss_ip, Int32.Parse(LMCCc.the_config.EV2_TEAM_ID));
+            TSSc.ConnectToHost(tss_ip, Int32.Parse(LMCCc.the_config.EV1_TEAM_ID));
             if (TSSc.connected == true)
             {
                 status.text = "TSS: Connected";
