@@ -7,7 +7,7 @@ public class REALROCK : MonoBehaviour
 {
     public TSS_DATA TSS;
     public TMP_Text display;
-    public bool signif = false;
+    bool signif = false;
    
 
     // Start is called before the first frame update

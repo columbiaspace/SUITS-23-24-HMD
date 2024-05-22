@@ -36,4 +36,22 @@ public class Procedure_Display : MonoBehaviour
             Body.text += "): ";
             Body.text += lmcc.GoldenProcedure.steps[counter].description;
     }
+
+    public void prevStep()
+    {
+        if (counter >= 1)
+        {
+
+
+            --counter;
+            Body.text += lmcc.GoldenProcedure.steps[counter].step;
+            Body.text += " (";
+            Body.text += lmcc.GoldenProcedure.steps[counter].role;
+            Body.text += "): ";
+            Body.text += lmcc.GoldenProcedure.steps[counter].description;
+        }
+    }
+
+
+
 }
